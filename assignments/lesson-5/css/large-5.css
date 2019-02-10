@@ -1,0 +1,55 @@
+@media only screen and (min-device-width: 720px) {
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    nav li a { 
+        display: block;
+        color: #58595B;
+        text-decoration: none;
+    }
+    
+    nav li a.active{
+        background-color: #555555;
+        color: #F0EDE3;
+        font-weight: bold;
+    }
+    
+    nav li a:hover:not(.active) {
+        background-color: #FF8200;
+        color: #58595B;
+    }
+
+    nav li {
+        display:inline;
+    }
+
+    nav li a {
+        display: inline-block;
+        color: #58595B;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    header img {
+        width: 15%;
+        height: auto;
+        padding-left: 1.0rem;
+    }
+
+    header h1 {
+        font-size: 5vw;
+        font-family: Helvetica, sans-serif;
+        margin: 1.0rem;
+    }
+    .motto {
+        font-size: 3vw;
+        padding: 1.0rem;
+    }
+
+}
