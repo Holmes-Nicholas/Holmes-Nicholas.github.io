@@ -1,0 +1,60 @@
+/* .bg-image and .bg-image-sedona same as above.
+   .multiplebgs class added by modernizer.js. */
+
+   @media
+   /* "mama-bear" - plus any-retina */
+   only screen and min-width : 513px,
+   only screen and (-webkit-min-device-pixel-ratio: 1.5),
+   only screen and (        min-device-pixel-ratio: 1.5) {
+ 
+     /* no-multiplebgs - mid-size fallback (sepia) */
+     .no-multiplebgs .bg-image-sedona,
+     /* upscale to mid-size if no javascript */
+     .no-js .bg-image-sedona {
+       background-image: url(images/franklin-80x-1080.jpg); }
+ 
+     .multiplebgs .bg-image-sedona {
+       background-image:
+         /* mid-size on top (sepia) */
+         url(images/franklin-80x-1080.jpg),
+         /* mobile-first default on bottom (b&amp;w) */
+         url(images/franklin-80x-720.jpg);
+       }
+   }
+ 
+ @media
+   /* "papa-bear" - all three images */
+   only screen and (min-width : 1025px) {
+ 
+     /* no-multiplebgs fallback is above */
+ 
+     .multiplebgs .bg-image-sedona {
+       background-image:
+         /* high-res on top (color) */
+         url(images/franklin-80x-3200.jpg),
+         /* mid-size in middle (sepia) */
+         url(images/franklin-80x-1080.jpg),
+         /* mobile-first default on bottom (b&amp;w) */
+         url(images/franklin-80x-720.jpg);
+       }
+   }
+ 
+ @media
+   /* larger retina device - triggered immediately,
+      so mid-size image not needed */
+ 
+   only screen and (min-device-width : 768px) and
+     (-webkit-min-device-pixel-ratio: 1.5),
+   only screen and (min-device-width : 768px) and
+     (        min-device-pixel-ratio: 1.5) {
+ 
+     /* no-multiplebgs fallback is above */
+ 
+     .multiplebgs .bg-image-sedona {
+       background-image:
+         /* high-res on top (color) */
+         url(images/franklin-80x-3200.jpg),
+         /* mobile-first default on bottom (b&amp;w) */
+         url(images/franklin-80x-720.jpg);
+     }
+   }
