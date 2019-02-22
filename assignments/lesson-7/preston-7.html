@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Preston, Soda Springs, and Fish Haven Weather</title>
+        <meta name="description" content="Weather Site for the Preston, Soda Springs, and Fish Haven areas of South East Idaho (SEID).">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-7.css">
+        <link rel="stylesheet" media="(min-width:720px)" href="css/large-7.css">
+        <script src="scripts/hamburger.js"></script>
+    </head>
+    <body>
+        <header class="clearfix">
+            <div id="flex-headings">
+                <div id="head-image">    
+                    <img src="images/weather-logo.png" alt="SEIDweather.com">
+                </div>
+                <div id="head-title">
+                    <section class="headings">
+                        <h1>SEID Weather Site</h1>
+                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                    </section>
+                </div>
+            </div>  
+            <nav>
+                <div class="nav-bar">
+                    <ul class="navbar">
+                        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a class="active" href="#preston">Preston</a></li>
+                        <li><a href="#soda-springs">Soda Springs</a></li>
+                        <li><a href="#fish-haven">Fish Haven</a></li>
+                        <li><a href="#storm-center">Storm Center</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="cities">
+                <article>
+                    <h2>Preston</h2>
+                    <div class="wrapsummary">
+                        <figure class="prestonhero">
+                            <img src="images/franklin-px75-1080.jpg" alt="Preston Idaho" sizes="90vw"
+                            srcset="images/franklin-px75-720.jpg 720w,
+                                    images/franklin-px75-1080.jpg 1080w">
+                        </figure>
+                        <section class="summary">
+                            <h3>Weather Summary</h3>
+                            <hr>
+                            <p>Currently: <span class="p1">34&#8457; & cloudy</span></p>
+                            <p>High/Low: <span class="p1">38/28&#8457;</span></p>
+                            <p>90&percnt; <span class="p1">chance of rain/snow mix</span></p>
+                            <p>NNW 2 <span class="p1">mph winds</span></p>
+                        </section>
+                    </div>
+                    <div class="fiveday">
+                        <h3>5 Day Forecast</h3>
+                        <img class="weather-graphic" src="images/5day.PNG" alt="preston">
+                    </div>
+                    <br>
+                    <div class="story">
+                        <img class="story-cover" src="images/snowyroads.JPG" alt="preston snowy roads">
+                        <p>It is currently 34&deg; with a 90&percnt; chance of snow. Dangerous road conditions are expected overnight. Do not drive this evening or overnight if possible. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo eveniet placeat. In porro, repudiandae ipsum voluptatibus ratione enim accusantium rem consequatur ab? Alias tenetur ratione quibusdam accusantium aut quis totam! Voluptas labore officiis, unde sequi ad fuga</p>   
+                        <a href="preston/preston.html">Click here for further weather information for Preston.</a>
+                    </div>
+                </article>
+            </div>
+            <br>
+        </main>
+        <br><br><br><br>
+        <footer>
+            <div class="footer-upper">
+            <h3>Contact Information</h3>
+            <p>Nicholas Holmes</p>
+            <p>holmes18@byui.edu</p>
+            <p>865-555-5555</p>
+            <div class="h_iframe">
+                <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39829.253430564444!2d-111.92684405053508!3d42.100467611726636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549309485221" style="border:0" allowfullscreen></iframe>
+            </div>
+            </div>
+            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script></p>
+            </div>
+        </footer>
+    </body>
+</html>
