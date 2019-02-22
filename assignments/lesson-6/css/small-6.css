@@ -135,6 +135,27 @@ main figure.prestonhero img {
     margin: 0 auto;
 }
 
+.wrapsummary {
+    position: relative;
+    margin: 10px auto;
+}
+
+.wrapsummary img {
+    width: 100%;
+}
+.summary {
+    position: absolute;
+    background-color: #58595B;
+    opacity: .75;
+    width: 40%;
+    text-align: center;
+    top: 5px;
+    left: 5px;
+    font-size: .6rem;
+    line-height: 1.6rem; 
+    color: #F0EDE3;
+}
+
 h2 {
     font-size: 1.4rem;
     font-weight: bold;
