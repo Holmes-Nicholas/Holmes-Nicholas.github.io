@@ -151,11 +151,6 @@ main figure.prestonhero img {
     width: 100%;
 }
 
-article img {
-    display: block;
-    margin: 0 auto;
-}
-
 .summary {
     position: absolute;
     background-color: #58595B;
@@ -165,8 +160,13 @@ article img {
     top: 5px;
     left: 5px;
     font-size: .6rem;
-    line-height: 1.6rem; 
+    line-height: 1.4rem; 
     color: #F0EDE3;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
 }
 
 h2 {
