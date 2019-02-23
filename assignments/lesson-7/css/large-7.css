@@ -110,9 +110,15 @@
     }
     
     figcaption {font-size: smaller;}
+
+    .gallery {
+        transition: box-shadow .3s;
+    }
     
     /* hover effect */
-    .gallery:hover {box-shadow: 0 0 25px #58595B;}
+    .gallery:hover {
+        box-shadow: 0 0 25px #58595B;
+    }
 
     /*------------ FOOTER --------------*/
 
