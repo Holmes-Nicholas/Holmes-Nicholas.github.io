@@ -36,8 +36,12 @@
     }
     
     #head-image {
-        max-width: 15vw;
-        margin-left: 20vw;
+        max-width: 10vw;
+        margin-left: 25vw;
+    }
+
+    #head-title {
+        width: 40vw;
     }
 
 
