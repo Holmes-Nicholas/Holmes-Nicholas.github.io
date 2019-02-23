@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 720px) {
+@media only screen and (min-device-width: 1024px) {
     
     /*---------------- HEADER --------------*/
 
@@ -84,6 +84,29 @@
         height: auto;
         padding: .5rem;
     }
+
+    .container {margin: 1rem auto; 
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        max-width: 1048px;
+    }
+
+    .container > div {
+        width: 25vw;
+        justify-self: center;
+        padding: 1em;
+    }
+
+    img.gallery { 
+        max-width: 20vw; 
+        height: auto; 
+        margin: .5rem;
+    }
+    
+    figcaption {font-size: smaller;}
+    
+    /* hover effect */
+    .gallery:hover {box-shadow: 0 0 25px #58595B;}
 
     /*------------ FOOTER --------------*/
 

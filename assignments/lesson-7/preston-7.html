@@ -7,7 +7,8 @@
         <meta name="description" content="Weather Site for the Preston, Soda Springs, and Fish Haven areas of South East Idaho (SEID).">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small-7.css">
-        <link rel="stylesheet" media="(min-width:720px)" href="css/large-7.css">
+        <link rel="stylesheet" media="(min-width:640px)" href="css/medium-7.css">
+        <link rel="stylesheet" media="(min-width:1024px)" href="css/large-7.css">
         <script src="scripts/hamburger.js"></script>
     </head>
     <body>
@@ -32,7 +33,7 @@
                         <li><a href="#soda-springs">Soda Springs</a></li>
                         <li><a href="#fish-haven">Fish Haven</a></li>
                         <li><a href="#storm-center">Storm Center</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="gallery-7.html">Gallery</a></li>
                     </ul>
                 </div>
             </nav>
@@ -50,10 +51,11 @@
                         <section class="summary">
                             <h3>Weather Summary</h3>
                             <hr>
-                            <p>Currently: <span class="p1">34&#8457; & cloudy</span></p>
+                            <p>Currently: <span id="temp">34</span>&#8457; & cloudy</p>
                             <p>High/Low: <span class="p1">38/28&#8457;</span></p>
                             <p>90&percnt; <span class="p1">chance of rain/snow mix</span></p>
-                            <p>NNW 2 <span class="p1">mph winds</span></p>
+                            <p>NNW <span id="wind">5</span> mph winds</p>
+                            <div id="windchill"></div>
                         </section>
                     </div>
                     <div class="fiveday">
@@ -68,6 +70,7 @@
                     </div>
                 </article>
             </div>
+            <script src="scripts/windchill.js"></script>
             <br>
         </main>
         <br><br><br><br>
