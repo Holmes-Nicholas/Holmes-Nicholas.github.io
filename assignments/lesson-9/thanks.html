@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Preston, Soda Springs, and Fish Haven Weather</title>
+        <meta name="description" content="Weather Site for the Preston, Soda Springs, and Fish Haven areas of South East Idaho (SEID).">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/small-8.css">
+        <link rel="stylesheet" media="(min-width:640px)" href="css/medium-8.css">
+        <link rel="stylesheet" media="(min-width:1024px)" href="css/large-8.css">
+        <script src="scripts/hamburger.js"></script>
+    </head>
+    <body>
+        <script>
+            function adjustRating(rating) {
+                document.getElementById("ratingvalue").innerHTML = rating;
+            }
+        </script>
+        <header class="clearfix">
+            <div id="flex-headings">
+                <div id="head-image">    
+                    <img src="images/weather-logo.png" alt="SEIDweather.com">
+                </div>
+                <div id="head-title">
+                    <section class="headings">
+                        <h1>SEID Weather Site</h1>
+                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                    </section>
+                </div>
+            </div>  
+            <nav>
+                <div class="nav-bar">
+                    <ul class="navbar">
+                        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="#soda-springs">Soda Springs</a></li>
+                        <li><a href="#fish-haven">Fish Haven</a></li>
+                        <li><a class="active" href="#storm-center">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <br><br>
+            <h1>Thank you for submitting the storm report!</h1>
+        </main>
+        <br>
+        <footer>                
+            <div class="footer-upper"> 
+                <h3>Contact Information</h3>
+                <p>Nicholas Holmes</p>
+                <p>holmes18@byui.edu</p>
+                <p>865-555-5555</p>
+            </div>
+            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script></p>
+            </div>
+        </footer>
+    </body>
+</html>
