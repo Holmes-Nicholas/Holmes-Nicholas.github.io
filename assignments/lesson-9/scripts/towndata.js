@@ -16,7 +16,6 @@ function showtownsInfo(jsonObj) {
     for (var i = 0; i < towns.length; i++) {
         if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven") { 
 
-
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
             var myPara1 = document.createElement('p');
@@ -44,19 +43,13 @@ function showtownsInfo(jsonObj) {
                 myImages.setAttribute('alt', 'Fish Haven, ID');
             }
 
-         
-      
             myArticle.appendChild(myH2);
-
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
             myArticle.appendChild(myPara4);
             myArticle.appendChild(myImages);
             section.appendChild(myArticle);
-           
-
-
          } 
     }
 }
