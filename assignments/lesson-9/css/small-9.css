@@ -218,6 +218,18 @@ img.gallery1 {
 
 figcaption {font-size: smaller;}
 
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+article img{
+    width: 100%
+}
 
 /*------------------ FOOTER ---------------*/
 /*
