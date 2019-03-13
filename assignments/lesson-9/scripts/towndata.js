@@ -33,15 +33,15 @@ function showtownsInfo(jsonObj) {
             //myPara5.textContent = 'Events:' + towns[i].events; 
 
             if (towns[i].name == 'Preston') {
-                myImages.setAttribute('src', 'images/preston/prestonhome.jpg');
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/lesson-9/images/preston/prestonhome.jpg');
                 myImages.setAttribute('alt', 'Preston, ID');
             }
             else if (towns[i].name == 'Soda Springs') {
-                myImages.setAttribute('src', 'images/sodasprings/sodaspringshome.jpg');
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/lesson-9/images/sodasprings/sodaspringshome.jpg');
                 myImages.setAttribute('alt', 'Soda Springs, ID');
             }
             else if (towns[i].name == 'Fish Haven') {
-                myImages.setAttribute('src', 'images/fishhaven/fishhavenhome.jpg');
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/lesson-9/images/fishhaven/fishhavenhome.jpg');
                 myImages.setAttribute('alt', 'Fish Haven, ID');
             }
 
