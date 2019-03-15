@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Preston, Soda Springs, and Fish Haven Weather</title>
-        <meta name="description" content="Weather Site for the Preston, Soda Springs, and Fish Haven areas of South East Idaho (SEID).">
+        <title>Preston Weather</title>
+        <meta name="description" content="Weather Site for the Preston Idaho.">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/small-9.css">
-        <link rel="stylesheet" media="(min-width:640px)" href="css/medium-9.css">
-        <link rel="stylesheet" media="(min-width:1024px)" href="css/large-9.css">
+        <link rel="stylesheet" href="css/small-10.css">
+        <link rel="stylesheet" media="(min-width:640px)" href="css/medium-10.css">
+        <link rel="stylesheet" media="(min-width:1024px)" href="css/large-10.css">
         <script src="scripts/hamburger.js"></script>
+
     </head>
     <body>
         <header class="clearfix">
@@ -51,16 +52,50 @@
                         <div class="summary">
                             <h3>Weather Summary</h3>
                             <hr>
-                            <p>Currently: <span id="temp">34</span>&#8457; & cloudy</p>
-                            <p>High/Low: <span class="p1">38/28&#8457;</span></p>
-                            <p>90&percnt; <span class="p1">chance of rain/snow mix</span></p>
-                            <p>NNW <span id="wind">5</span> mph winds</p>
+                            <p>Currently: <span id="currently"></span></p>
+                            <p>High: <span id="high"></span>&#8457;</p>
                             <div id="windchill"></div>
+                            <p>Humidity: <span id="humidity"></span>&#37;</p>
+                            <p>Wind Speed: <span id="wind"></span> mph</p>                            
                         </div>
                     </div>
+
+
+
                     <div class="fiveday">
                         <h3>5 Day Forecast</h3>
-                        <img class="weather-graphic" src="images/5day.PNG" alt="preston">
+                        <div class="forecastcontainer">
+                            <div class="forecast">
+                                <p>Mon</p>
+                                <img id="cc-img" src="" alt="">
+                                <br>
+                                <span id="current-temp"></span>&deg; F
+                            </div>
+                            <div class="forecast">
+                                    <p>Mon</p>
+                                    <img id="cc-img" src="" alt="">
+                                    <br>
+                                    <span id="current-temp"></span>&deg; F
+                            </div>
+                            <div class="forecast">
+                                    <p>Mon</p>
+                                    <img id="cc-img" src="" alt="">
+                                    <br>
+                                    <span id="current-temp"></span>&deg; F
+                            </div>
+                            <div class="forecast">
+                                    <p>Mon</p>
+                                    <img id="cc-img" src="" alt="">
+                                    <br>
+                                    <span id="current-temp"></span>&deg; F
+                            </div>
+                            <div class="forecast">
+                                    <p>Mon</p>
+                                    <img id="cc-img" src="" alt="">
+                                    <br>
+                                    <span id="current-temp"></span>&deg; F
+                            </div>
+                        </div>
                     </div>
                     <br>
                     <div class="story">
@@ -70,6 +105,8 @@
                     </div>
                 </article1>
             </div>
+            <script src="scripts/weatherapi.js"></script>
+            <script src="scripts/forecastapi.js"></script>
             <script src="scripts/windchill.js"></script>
             <br>
         </main>
