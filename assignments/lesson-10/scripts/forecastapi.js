@@ -12,7 +12,7 @@ forecastRequest.onload = function() {
 */
     document.getElementById('current-temp').innerHTML = forecastData.list[0].main.temp.toFixed(0);
 
-    let icon = "http://openweathermap.org/img/w/" + forecastData.list[0].weather[0].icon + ".png";
+    let icon = "https://openweathermap.org/img/w/" + forecastData.list[0].weather[0].icon + ".png";
     let desc = forecastData.list[0].weather[0].description;
 
     document.getElementById('cc-img').setAttribute('src', icon);
