@@ -9,7 +9,7 @@ weatherRequest.onload = function() {
 
     document.getElementById('current-temp').innerHTML = weatherData.list[0].main.temp;
 
-    let icon = "http://openweathermap.org/img/w/" + weatherData.list[0].weather[0].icon + ".png";
+    let icon = "https://openweathermap.org/img/w/" + weatherData.list[0].weather[0].icon + ".png";
     let desc = weatherData.list[0].weather[0].description;
 
     document.getElementById('cc-img').setAttribute('src', icon);
