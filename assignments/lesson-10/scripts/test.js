@@ -5,16 +5,15 @@ forecastRequest.open('Get', apiURLstring2, true);
 forecastRequest.send();
         
 forecastRequest.onload = function() {
-    let forecastData = JSON.parse(forecastRequest.responseText);
-
     let forecast = [];
     let firstDay = 1;
-    
+    let forecastData = JSON.parse(forecastRequest.responseText);
+    //let icon = "https://openweathermap.org/img/w/" + forecastData.list[0].weather[0].icon + ".png";
     let iconArray = [];
     let icon = 1;
-    
     let descArray = [];
     let desc = 1;
+    //let desc = forecastData.list[0].weather[0].description;
 
     console.log(forecastData);
 
@@ -45,3 +44,6 @@ forecastRequest.onload = function() {
         document.getElementById('cc-img' + i).setAttribute('alt', descArray[i]);
     }
 };
+
+//document.getElementById('cc-img' + i).setAttribute('src', icon);
+//document.getElementById('cc-img' + i).setAttribute('alt', desc);

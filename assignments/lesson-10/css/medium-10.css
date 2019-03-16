@@ -79,10 +79,9 @@
         height: auto;
         padding: .5rem;
     }
-    
+   
     img.story-cover {
-        float: right;
-        max-width: 50vw;
+        width: 100%;
         height: auto;
         padding: .5rem;
     }
@@ -131,7 +130,8 @@
     .footer-upper { 
         width:80vw;
         margin: 0 auto;
-        background: #eeeeee; 
+        background: #d6d6d6; 
+
     }
     .footer-lower { 
         width:80vw;

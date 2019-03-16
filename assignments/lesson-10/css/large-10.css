@@ -63,6 +63,14 @@
         margin: 0 auto;
     }
 
+    h2 {
+        font-size: 2.0rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
     .summary {
         width: 30%;
         font-size: 17px;
@@ -78,27 +86,27 @@
     }
 
     img.story-cover {
-        float: right;
-        max-width: 50vw;
-        height: auto;
-        padding: .5rem;
+        box-shadow: 0 0 25px #58595B;
     }
 
     .fiveday {
         margin: 1rem auto; 
-        box-shadow: 0 0 25px #58595B;
     }
 
     .forecastcontainer {
-        margin: 1rem auto; 
+        background-color: #d6d6d6;
+        margin: 2rem auto; 
         display:grid;
         justify-self: center;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
         max-width: 100vw;
     }
 
-    .forecast {
-        box-shadow: 0 0 25px #58595B;
+    #day {
+        background-color: #FF8200;
+        font-size: 1.5vw;
+        font-weight: 700;
+        box-shadow: 0 0 10px #58595B;
     }
 
     img.forecast1 { 
@@ -106,7 +114,22 @@
         height: auto; 
         margin: .5rem;
     }
+
+    .citytitle {
+        margin: 1rem auto; 
+        display:grid;
+        justify-self: center;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 100vw;
+    }
     
+    .cityContainer {
+        margin: 1rem auto; 
+        display:grid;
+        justify-self: center;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 100vw;
+    }
 
     .container {
         margin: 1rem auto; 
@@ -152,10 +175,25 @@
         margin: 0 auto;
     }
 
+    .sectionCity {
+        margin: 1rem auto; 
+        display:grid;
+        justify-self: center;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 100vw;
+    }
     
     article {
         text-align: center;
         width: 30%;
+        margin: 0 auto;
+        box-shadow: 0 0 25px #58595B;
+    }
+
+    article2 {
+        font-size: 1.3em;
+        text-align: center;
+        width: 100%;
         margin: 0 auto;
         box-shadow: 0 0 25px #58595B;
     }
@@ -177,6 +215,13 @@
 
     /*------------ FOOTER --------------*/
 
+    .footerContainer {
+        margin: 1rem auto; 
+        display:grid;
+        justify-self: center;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 80vw;
+    }
     footer {
         padding-bottom: 3.0rem;
     }
@@ -193,16 +238,21 @@
         width: 100%;
         height: 100%;
     }
-    
+
     .footer-upper { 
         width:80vw;
         margin: 0 auto;
-        background: #eeeeee; 
     }
-    .footer-lower { 
-        width:80vw;
+    
+    .footer-uppercity { 
+        width:40vw;
         margin: 0 auto;
-        background: #d6d6d6; 
+        background-color: #d6d6d6; 
     }
 
+    .footer-lower { 
+        width:80vw;
+        margin: 1rem auto;
+        background: #d6d6d6; 
+    }
 }

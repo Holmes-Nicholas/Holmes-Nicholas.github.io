@@ -10,7 +10,6 @@
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium-10.css">
         <link rel="stylesheet" media="(min-width:1024px)" href="css/large-10.css">
         <script src="scripts/hamburger.js"></script>
-
     </head>
     <body>
         <header class="clearfix">
@@ -59,69 +58,73 @@
                             <p>Wind Speed: <span id="wind"></span> mph</p>                            
                         </div>
                     </div>
-
-
-
                     <div class="fiveday">
                         <h3>5 Day Forecast</h3>
                         <div class="forecastcontainer">
                             <div class="forecast">
-                                <p>Mon</p>
-                                <img id="cc-img" src="" alt="">
-                                <br>
-                                <span id="current-temp"></span>&deg; F
+                                <p id="day">Day 1</p>
+                                <p id="day1"></p>
+                                <img id="cc-img1" src="" alt="">
                             </div>
                             <div class="forecast">
-                                    <p>Mon</p>
-                                    <img id="cc-img" src="" alt="">
-                                    <br>
-                                    <span id="current-temp"></span>&deg; F
+                                    <p id="day">Day 2</p>
+                                    <p id="day2"></p>
+                                    <img id="cc-img2" src="" alt="">
                             </div>
                             <div class="forecast">
-                                    <p>Mon</p>
-                                    <img id="cc-img" src="" alt="">
-                                    <br>
-                                    <span id="current-temp"></span>&deg; F
+                                    <p id="day">Day 3</p>
+                                    <p id="day3"></p>
+                                    <img id="cc-img3" src="" alt="">
                             </div>
                             <div class="forecast">
-                                    <p>Mon</p>
-                                    <img id="cc-img" src="" alt="">
-                                    <br>
-                                    <span id="current-temp"></span>&deg; F
+                                    <p id="day">Day 4</p>
+                                    <p id="day4"></p>
+                                    <img id="cc-img4" src="" alt="">
                             </div>
                             <div class="forecast">
-                                    <p>Mon</p>
-                                    <img id="cc-img" src="" alt="">
-                                    <br>
-                                    <span id="current-temp"></span>&deg; F
+                                    <p id="day">Day 5</p>
+                                    <p id="day5"></p>
+                                    <img id="cc-img5" src="" alt="">
                             </div>
                         </div>
                     </div>
                     <br>
-                    <div class="story">
-                        <img class="story-cover" src="images/snowyroads.JPG" alt="preston snowy roads">
-                        <p>It is currently 34&deg; with a 90&percnt; chance of snow. Dangerous road conditions are expected overnight. Do not drive this evening or overnight if possible. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo eveniet placeat. In porro, repudiandae ipsum voluptatibus ratione enim accusantium rem consequatur ab? Alias tenetur ratione quibusdam accusantium aut quis totam! Voluptas labore officiis, unde sequi ad fuga</p>   
-                        <a href="preston/preston.html">Click here for further weather information for Preston.</a>
+                    <div class="citytitle"><h3>City Events</h3></div>
+                    <div class="cityContainer">
+                        <div class="citydiv">
+                            <section>
+
+                            </section>
+                        </div>
+                        <div class="citydiv">
+                            <img class="story-cover" src="images/snowyroads.JPG" alt="preston snowy roads">
+                        </div>
                     </div>
+                
                 </article1>
             </div>
             <script src="scripts/weatherapi.js"></script>
             <script src="scripts/forecastapi.js"></script>
             <script src="scripts/windchill.js"></script>
+            <script src="scripts/townevents.js"></script>
             <br>
         </main>
-        <br><br><br><br>
+        <br>
         <footer>
-            <div class="footer-upper">
-            <h3>Contact Information</h3>
-            <p>Nicholas Holmes</p>
-            <p>holmes18@byui.edu</p>
-            <p>865-555-5555</p>
-            <div class="h_iframe">
-                <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39829.253430564444!2d-111.92684405053508!3d42.100467611726636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549309485221" style="border:0" allowfullscreen></iframe>
+            <div class="footerContainer">
+            <div class="footer-uppercity">
+                <h3>Contact Information</h3>
+                <p>Nicholas Holmes</p>
+                <p>holmes18@byui.edu</p>
+                <p>865-555-5555</p>
+            </div>
+            <div class="footer-uppercity">
+                <div class="h_iframe">
+                    <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39829.253430564444!2d-111.92684405053508!3d42.100467611726636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549309485221" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
             </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script></p>
+            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script> - <a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
             </div>
         </footer>
     </body>
