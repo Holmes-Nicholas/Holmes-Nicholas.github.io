@@ -15,7 +15,7 @@ weatherWindchill.open('Get', apiURLstring1, true);
 weatherWindchill.send();
 
 weatherWindchill.onload = function() {
-    let windchillData = JSON.parse(weatherRequest.responseText);
+    let windchillData = JSON.parse(weatherWindchill.responseText);
     console.log(windchillData);
 
     var temp = windchillData.list[0].main.temp;
