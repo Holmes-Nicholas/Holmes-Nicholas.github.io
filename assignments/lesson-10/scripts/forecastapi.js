@@ -18,23 +18,23 @@ forecastRequest.onload = function() {
 
     console.log(forecastData);
 
-    forecastData.list.forEach(x => {
-        if (x.dt_txt.includes('18:00:00')) {
-            forecast[firstDay] = x.main.temp;
+    forecastData.list.forEach(i => {
+        if (i.dt_txt.includes('18:00:00')) {
+            forecast[firstDay] = i.main.temp;
             firstDay++;
         }
     });
 
-    forecastData.list.forEach(x => {
-        if (x.dt_txt.includes('18:00:00')) {
-            iconArray[icon] = "https://openweathermap.org/img/w/" + x.weather[0].icon + ".png";
+    forecastData.list.forEach(i => {
+        if (i.dt_txt.includes('18:00:00')) {
+            iconArray[icon] = "https://openweathermap.org/img/w/" + i.weather[0].icon + ".png";
             icon++;
         }
     });
 
-    forecastData.list.forEach(x => {
-        if (x.dt_txt.includes('18:00:00')) {
-            descArray[desc] = x.weather[0].description;
+    forecastData.list.forEach(i => {
+        if (i.dt_txt.includes('18:00:00')) {
+            descArray[desc] = i.weather[0].description;
             desc++;
         }
     });
