@@ -13,7 +13,6 @@ request.onload = function () {
 
 function showtownsInfo(jsonObj) {
     var towns = jsonObj['towns'];
-    var text = "";
     for (var i = 0; i < towns.length; i++) {
       if (towns[i].name == "Preston") { 
         for(var j = 0; j < towns[i].events.length; j++){
