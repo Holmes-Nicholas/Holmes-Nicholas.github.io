@@ -1,4 +1,4 @@
-var section = document.querySelector('section');
+var section = document.querySelector('sectionCity');
 
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
@@ -13,28 +13,21 @@ request.onload = function () {
 
 function showtownsInfo(jsonObj) {
     var towns = jsonObj['towns'];
+    var text = "";
     for (var i = 0; i < towns.length; i++) {
-        if (towns[i].name == "Preston") { 
+      if (towns[i].name == "Preston") { 
+        for(var j = 0; j < towns[i].events.length; j++){
 
-            var myArticle = document.createElement('article2');
-            var myH2 = document.createElement('h2');
-            var myPara1 = document.createElement('p');
-            var myPara2 = document.createElement('p');
-            var myPara3 = document.createElement('p');
-            var myPara4 = document.createElement('p');
-            var myPara5 = document.createElement('p');
-            var myImages = document.createElement('img');
+          console.log(towns[i].events[j] + ", ");
+            
+          var myArticle = document.createElement('article2');
+          var myPara1 = document.createElement('p');
 
-            myPara1.textContent = towns[i].events; 
-
-            myArticle.appendChild(myH2);
-            myArticle.appendChild(myPara1);
-            myArticle.appendChild(myPara2);
-            myArticle.appendChild(myPara3);
-            myArticle.appendChild(myPara4);
-            myArticle.appendChild(myPara5);
-            myArticle.appendChild(myImages);
-            section.appendChild(myArticle);
-         } 
+          myPara1.textContent = towns[i].events[j];
+          
+          myArticle.appendChild(myPara1);
+          section.appendChild(myArticle);
+        }
+      } 
     }
 }
