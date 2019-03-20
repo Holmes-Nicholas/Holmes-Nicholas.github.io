@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Fish Haven Weather</title>
+        <meta name="description" content="Weather Site for Fish Haven Idaho.">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
+        <link rel="stylesheet" media="(min-width:1024px)" href="css/large.css">
+        <script src="scripts/hamburger.js"></script>
+    </head>
+    <body>
+        <header class="clearfix">
+            <div id="flex-headings">
+                <div id="head-image">    
+                    <img src="images/weather-logo.png" alt="SEIDweather.com">
+                </div>
+                <div id="head-title">
+                    <div class="headings">
+                        <h1>SEID Weather Site</h1>
+                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                    </div>
+                </div>
+            </div>  
+            <nav>
+                <div class="nav-bar">
+                    <ul class="navbar">
+                        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="sodasprings.html">Soda Springs</a></li>
+                        <li><a class="active" href="#fishhaven">Fish Haven</a></li>
+                        <li><a href="stormcenter.html">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="cities">
+                <article1>
+                    <h2>Fish Haven</h2>
+                    <div class="wrapsummary">
+                        <figure class="prestonhero">
+                            <img src="images/franklin-px75-1080.jpg" alt="Preston Idaho" sizes="90vw"
+                            srcset="images/franklin-px75-720.jpg 720w,
+                                    images/franklin-px75-1080.jpg 1080w">
+                        </figure>
+                        <div class="summary">
+                            <h3>Weather Summary</h3>
+                            <hr>
+                            <p>Currently: <span id="currently"></span></p>
+                            <p>High: <span id="high"></span>&#8457;</p>
+                            <div id="windchill"></div>
+                            <p>Humidity: <span id="humidity"></span>&#37;</p>
+                            <p>Wind Speed: <span id="wind"></span> mph</p>                            
+                        </div>
+                    </div>
+                    <div class="fiveday">
+                        <h3>5 Day Forecast</h3>
+                        <div class="forecastcontainer">
+                            <div class="forecast">
+                                <p id="day">Day 1</p>
+                                <p id="day1"></p>
+                                <img id="cc-img1" src="" alt="">
+                            </div>
+                            <div class="forecast">
+                                    <p id="day">Day 2</p>
+                                    <p id="day2"></p>
+                                    <img id="cc-img2" src="" alt="">
+                            </div>
+                            <div class="forecast">
+                                    <p id="day">Day 3</p>
+                                    <p id="day3"></p>
+                                    <img id="cc-img3" src="" alt="">
+                            </div>
+                            <div class="forecast">
+                                    <p id="day">Day 4</p>
+                                    <p id="day4"></p>
+                                    <img id="cc-img4" src="" alt="">
+                            </div>
+                            <div class="forecast">
+                                    <p id="day">Day 5</p>
+                                    <p id="day5"></p>
+                                    <img id="cc-img5" src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="cityContainer">
+                        <div class="citydiv">
+                            <h3>City Events</h3><br>
+                            <sectionCity>
+
+                            </sectionCity>
+                        <br>
+                        </div>
+                        <div class="citydiv">
+                            <img class="story-cover" src="images/snowyroads.JPG" alt="preston snowy roads">
+                        </div>
+                    </div>
+                
+                </article1>
+            </div>
+            <script src="scripts/weatherapiFishHaven.js"></script>
+            <script src="scripts/forecastapiFishHaven.js"></script>
+            <script src="scripts/windchillFishHaven.js"></script>
+            <script src="scripts/towneventsFishHaven.js"></script>
+            <br>
+        </main>
+        <br>
+        <footer>
+            <div class="footerContainer">
+            <div class="footer-uppercity">
+                <h3>Contact Information</h3>
+                <p>Nicholas Holmes</p>
+                <p>holmes18@byui.edu</p>
+                <p>865-555-5555</p>
+            </div>
+            <div class="footer-uppercity">
+                <div class="h_iframe">
+                    <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5926.479391985909!2d-111.40049067197161!3d42.03804016683927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish+Haven%2C+ID+83287!5e0!3m2!1sen!2sus!4v1553110436093" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script> - <a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
