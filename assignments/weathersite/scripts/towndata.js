@@ -22,7 +22,6 @@ function showtownsInfo(jsonObj) {
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
             var myPara4 = document.createElement('p');
-            //var myPara5 = document.createElement('p');
             var myImages = document.createElement('img');
 
             myH2.textContent = towns[i].name;
@@ -30,7 +29,6 @@ function showtownsInfo(jsonObj) {
             myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
             myPara3.textContent = 'Population: ' + towns[i].currentPopulation;
             myPara4.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + '"';
-            //myPara5.textContent = 'Events:' + towns[i].events; 
 
             if (towns[i].name == 'Preston') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/weathersite/images/preston/prestonhome-px70.jpg');
@@ -50,7 +48,6 @@ function showtownsInfo(jsonObj) {
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
             myArticle.appendChild(myPara4);
-            //myArticle.appendChild(myPara5);
             myArticle.appendChild(myImages);
             section.appendChild(myArticle);
          } 
