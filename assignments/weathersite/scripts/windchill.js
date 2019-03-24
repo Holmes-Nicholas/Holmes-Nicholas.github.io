@@ -5,7 +5,6 @@ weatherWindchill.send();
 
 weatherWindchill.onload = function() {
     let windchillData = JSON.parse(weatherWindchill.responseText);
-    console.log(windchillData);
 
     var temp = windchillData.list[0].main.temp;
     var wind = windchillData.list[0].wind.speed;

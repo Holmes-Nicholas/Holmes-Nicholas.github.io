@@ -16,8 +16,6 @@ forecastRequest.onload = function() {
     let descArray = [];
     let desc = 1;
 
-    console.log(forecastData);
-
     forecastData.list.forEach(i => {
         if (i.dt_txt.includes('18:00:00')) {
             forecast[firstDay] = i.main.temp;
