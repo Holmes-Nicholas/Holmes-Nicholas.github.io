@@ -117,15 +117,26 @@
         font-weight: 700;
         box-shadow: 0 0 10px #58595B;
     }
-/*
-    section {
+
+    .cities section {
         display: flex;
         flex-flow: row;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
-    */
 
+    .cities article {
+        text-align: center;
+        width: 30%;
+        margin: 0 auto;
+        box-shadow: 0 0 25px #58595B;
+    }
+
+    .cities article img{
+        width: 100%
+    }
+    
+/*
     article2 {
         font-size: 1.3em;
         text-align: center;
@@ -133,7 +144,7 @@
         margin: 0 auto;
         box-shadow: 0 0 25px #58595B;
     }
-        
+*/  
     /*------------ FOOTER --------------*/
     
     footer {

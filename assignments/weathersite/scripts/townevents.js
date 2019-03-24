@@ -17,7 +17,7 @@ function showtownsInfo(jsonObj) {
       if (towns[i].name == "Preston") { 
         for(var j = 0; j < towns[i].events.length; j++){
             
-          var myArticle = document.createElement('article2');
+          var myArticle = document.createElement('article');
           var myPara1 = document.createElement('p');
 
           myPara1.textContent = towns[i].events[j];
