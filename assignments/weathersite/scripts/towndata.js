@@ -12,6 +12,7 @@ request.onload = function () {
 }
 
 function showtownsInfo(jsonObj) {
+
     var towns = jsonObj['towns'];
     for (var i = 0; i < towns.length; i++) {
         if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven") { 
@@ -24,11 +25,13 @@ function showtownsInfo(jsonObj) {
             var myPara4 = document.createElement('p');
             var myImages = document.createElement('img');
 
+
             myH2.textContent = towns[i].name;
             myPara1.textContent = towns[i].motto;
             myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
             myPara3.textContent = 'Population: ' + towns[i].currentPopulation;
             myPara4.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + '"';
+
 
             if (towns[i].name == 'Preston') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/weathersite/images/preston/prestonhome-px70.jpg');
@@ -49,6 +52,7 @@ function showtownsInfo(jsonObj) {
             myArticle.appendChild(myPara3);
             myArticle.appendChild(myPara4);
             myArticle.appendChild(myImages);
+
             section.appendChild(myArticle);
          } 
     }

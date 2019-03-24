@@ -213,7 +213,9 @@ section {
     margin: 0 auto;
 }
 
-
+section h2 h3 {
+    display: none;
+}
 
 /*------------------ FOOTER ---------------*/
 
