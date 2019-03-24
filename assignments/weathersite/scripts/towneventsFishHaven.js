@@ -1,4 +1,4 @@
-var section = document.querySelector('sectionCity');
+var section = document.querySelector('section');
 
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
@@ -17,7 +17,7 @@ function showtownsInfo(jsonObj) {
       if (towns[i].name == "Fish Haven") { 
         for(var j = 0; j < towns[i].events.length; j++){
             
-          var myArticle = document.createElement('article2');
+          var myArticle = document.createElement('article');
           var myPara1 = document.createElement('p');
 
           myPara1.textContent = towns[i].events[j];

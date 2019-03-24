@@ -1,4 +1,4 @@
-var section = document.querySelector('sectionCity');
+var section = document.querySelector('section');
 
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
