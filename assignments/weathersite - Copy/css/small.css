@@ -217,6 +217,10 @@ section h2 h3 {
     display: none;
 }
 
+section h3 {
+    display: none;
+}
+
 /*------------------ FOOTER ---------------*/
 
 .h_iframe {
