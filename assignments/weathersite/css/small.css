@@ -6,6 +6,14 @@
     .fiveday {
         display: none;
     }
+
+    article {
+        margin-bottom: 25px;
+    }
+    
+    article img{
+        width: 100%
+    }
 }
 
 #flex-headings {
@@ -205,13 +213,7 @@ section {
     margin: 0 auto;
 }
 
-article {
-    margin-bottom: 25px;
-}
 
-article img{
-    width: 100%
-}
 
 /*------------------ FOOTER ---------------*/
 
