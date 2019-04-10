@@ -34,7 +34,7 @@ function showtownsInfo(jsonObj) {
 
 
             if (towns[i].name == 'Preston') {
-                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full=small.jpg');
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Atlanta, GA');
             }
             else if (towns[i].name == 'Soda Springs') {
