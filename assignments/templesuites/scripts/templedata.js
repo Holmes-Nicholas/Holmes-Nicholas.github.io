@@ -34,15 +34,15 @@ function showtownsInfo(jsonObj) {
 
 
             if (towns[i].name == 'Preston') {
-                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesite/images/temple/atlanta/atlanta-day-full=small.jpg');
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full=small.jpg');
                 myImages.setAttribute('alt', 'Atlanta, GA');
             }
             else if (towns[i].name == 'Soda Springs') {
-                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesite/images/temple/orlando/orlando-evening-full-small.jpg');
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/orlando/orlando-evening-full-small.jpg');
                 myImages.setAttribute('alt', 'Orlando, FL');
             }
             else if (towns[i].name == 'Fish Haven') {
-                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesite/images/temple/nashville/nashville-day-full-small.jpg');
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/nashville/nashville-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Nashville, TN');
             }
 
