@@ -1,0 +1,189 @@
+@media only screen and (min-device-width: 1024px) {
+    
+    /*---------------- HEADER --------------*/
+
+    .navbar {
+        flex-direction: row;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .navbar li:first-child { display: none;	}
+
+	.navbar li { 
+        display: block; 
+        flex: 1 1 auto;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        max-width: 100vw; 
+    }
+
+    nav li a {
+
+        color: #58595B;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    #head-image {
+        max-width: 10vw;
+        margin-left: 25vw;
+    }
+
+    #head-title {
+        width: 40vw;
+    }
+
+    header h1 {
+        font-size: 2.5vw;
+    }
+    .motto {
+        font-size: 1.7vw;
+
+    }
+
+    /*------------ MAIN --------------*/
+
+    main { 
+        width: 80vw; 
+        margin: 15px auto 0;
+    }
+
+    main figure.prestonhero img {
+        width: 80vw;
+        margin: 5px auto 0;
+    }
+
+    h2 {
+        font-size: 2.0rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .summary {
+        width: 30%;
+        font-size: 17px;
+        top: 15px;
+        left: 15px;
+    }
+
+    img.weather-graphic {
+        max-width: 50vw;
+        height: auto;
+        padding: .5rem;
+    }
+
+    img.story-cover {
+        box-shadow: 0 0 25px #58595B;
+    }
+
+    img.forecast1 { 
+        max-width: 10vw; 
+        height: auto; 
+        margin: .5rem;
+    }
+    
+    .cityContainer {
+        margin: 1rem auto; 
+        display:grid;
+        justify-self: center;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 100vw;
+    }
+
+    .container {
+        margin: 1rem auto; 
+        display:grid;
+        justify-self: center;
+        grid-template-columns: 1fr 1fr 1fr; 
+        max-width: 100vw;
+    }
+
+    .container > div {
+        width: 25vw;
+        justify-self: center;
+        padding: 1em;
+    }
+
+    img.gallery1 { 
+        max-width: 20vw; 
+        height: auto; 
+        margin: .5rem;
+    }
+
+    img.gallery2 { 
+        max-width: 20vw; 
+        height: auto; 
+        margin: .5rem;
+    }
+
+    img.gallery3 { 
+        max-width: 20vw; 
+        height: auto; 
+        margin: .5rem;
+    }
+    .container > div {
+        width: 25vw;
+        justify-self: center;
+        padding: 1em;
+    }
+    
+    figcaption {font-size: smaller;}
+
+    .gallery {
+        transition: box-shadow .3s;
+    }
+    
+    .gallery:hover {
+        box-shadow: 0 0 25px #58595B;
+    }
+
+    /*------------ FOOTER --------------*/
+
+    .footerContainer {
+        margin: 1rem auto; 
+        display:grid;
+        justify-self: center;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 80vw;
+    }
+    footer {
+        padding-bottom: 3.0rem;
+    }
+
+    .h_iframe {
+        position: relative;
+        padding-top:50%;
+    }
+    
+    .h_iframe iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-upper { 
+        width:80vw;
+        margin: 0 auto;
+    }
+    
+    .footer-uppercity { 
+        width:40vw;
+        margin: 0 auto;
+        background-color: #d6d6d6; 
+    }
+
+    .footer-lower { 
+        width:80vw;
+        margin: 1rem auto;
+        background: #d6d6d6; 
+    }
+}
