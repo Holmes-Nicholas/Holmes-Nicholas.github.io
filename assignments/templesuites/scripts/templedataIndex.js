@@ -46,7 +46,7 @@ function showtempleInfo(jsonObj) {
             }
 
             var myPara4Title = document.createElement('h3');
-            myPara4Title.textContent = temples[i];
+            myPara4Title.textContent = temples[i].historyTitle;
             myArticle.appendChild(myPara4Title);
             section.appendChild(myArticle);
 
