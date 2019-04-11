@@ -3,7 +3,7 @@
     {
       "name": "Atlanta Georgia Temple",
       "address": [
-          "6450 Barfield Rd NE",
+          "6450 Barfield Rd NE", 
           "Sandy Springs GA 30328"
       ],
       "telephone": "(770) 393-3698",
@@ -16,8 +16,11 @@
       ],
       "history": [
           "History:",
-          "The Atlanta Georgia Temple was the first temple built in the Southeastern United States (and in Georgia).",
-          "The Atlanta Georgia Temple was the first temple dedicated by President Gordon B. Hinckley, who went on to dedicate or rededicate 89 other temples."
+          "The Atlanta Georgia Temple was the first temple built in", 
+          "the Southeastern United States (and in Georgia).",
+          "The Atlanta Georgia Temple was the first temple dedicated", 
+          "by President Gordon B. Hinckley, who went on to dedicate",
+          "or rededicate 89 other temples."
       ],
       "ordinanceSchedule" : [
         "Baptistry Schedule:",

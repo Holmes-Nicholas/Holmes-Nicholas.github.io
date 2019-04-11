@@ -118,21 +118,21 @@
         box-shadow: 0 0 10px #58595B;
     }
 
-    .cities section {
+    /*.temples section {
         display: flex;
         flex-flow: row;
         width: 100%;
         margin: 0 auto;
-    }
+    }*/
 
-    .cities article {
-        text-align: center;
-        width: 30%;
+    .temples article {
+        text-align: left;
+        width: 90%;
         margin: 0 auto;
-        box-shadow: 0 0 25px #58595B;
+       /* box-shadow: 0 0 25px #58595B;*/
     }
 
-    .cities article img{
+    .temples article img{
         width: 100%
     }
      
