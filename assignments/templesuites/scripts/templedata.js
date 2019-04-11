@@ -23,6 +23,9 @@ function showtempleInfo(jsonObj) {
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
             var myPara4 = document.createElement('p');
+            var myPara5 = document.createElement('p');
+            var myPara6 = document.createElement('p');
+            var myPara7 = document.createElement('p');
             var myImages = document.createElement('img');
 
 
@@ -31,6 +34,9 @@ function showtempleInfo(jsonObj) {
             myPara2.textContent = temples[i].telephone;
             myPara3.textContent = temples[i].services;
             myPara4.textContent = temples[i].history;
+            myPara5.textContent = temples[i].ordinanceSchedule;
+            myPara6.textContent = temples[i].sessionSchedule;
+            myPara7.textContent = temples[i].closureSchedule;
 
 
             if (temples[i].name == 'Atlanta') {
@@ -51,6 +57,9 @@ function showtempleInfo(jsonObj) {
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
             myArticle.appendChild(myPara4);
+            myArticle.appendChild(myPara5);
+            myArticle.appendChild(myPara6);
+            myArticle.appendChild(myPara7);
             myArticle.appendChild(myImages);
 
             section.appendChild(myArticle);
