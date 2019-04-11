@@ -15,7 +15,7 @@ function showtempleInfo(jsonObj) {
 
     var temples = jsonObj['temples'];
     for (var i = 0; i < temples.length; i++) {
-        if (temples[i].name == "Nashville Temple") { 
+        if (temples[i].name == "Atlanta Georgia Temple") { 
 
             var myArticle = document.createElement('article');
             
@@ -56,6 +56,11 @@ function showtempleInfo(jsonObj) {
                 myArticle.appendChild(myPara4);
                 section.appendChild(myArticle);
             }
+
+            var myPara5Title = document.createElement('h3');
+            myPara5Title.textContent = temples[i].ordinanceScheduleTitle;
+            myArticle.appendChild(myPara5Title);
+            section.appendChild(myArticle);
 
             for(var j = 0; j < temples[i].ordinanceSchedule.length; j++){
                 var myPara5 = document.createElement('p');
