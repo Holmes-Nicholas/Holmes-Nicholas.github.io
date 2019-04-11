@@ -13,9 +13,9 @@ request.onload = function () {
 
 function showtempleInfo(jsonObj) {
 
-    var towns = jsonObj['temples'];
+    var temples = jsonObj['temples'];
     for (var i = 0; i < temples.length; i++) {
-        if (towns[i].name == "Atlanta" || towns[i].name == "Nashville" || towns[i].name == "Orlando") { 
+        if (temples[i].name == "Atlanta" || temples[i].name == "Nashville" || temples[i].name == "Orlando") { 
 
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
@@ -26,22 +26,22 @@ function showtempleInfo(jsonObj) {
             var myImages = document.createElement('img');
 
 
-            myH2.textContent = towns[i].name;
-            myPara1.textContent = towns[i].address;
-            myPara2.textContent = towns[i].telephone;
-            myPara3.textContent = towns[i].services;
-            myPara4.textContent = towns[i].history;
+            myH2.textContent = temples[i].name;
+            myPara1.textContent = temples[i].address;
+            myPara2.textContent = temples[i].telephone;
+            myPara3.textContent = temples[i].services;
+            myPara4.textContent = temples[i].history;
 
 
-            if (towns[i].name == 'Atlanta') {
+            if (temples[i].name == 'Atlanta') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Atlanta, GA');
             }
-            else if (towns[i].name == 'Orlando') {
+            else if (temples[i].name == 'Orlando') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/orlando/orlando-evening-full-small.jpg');
                 myImages.setAttribute('alt', 'Orlando, FL');
             }
-            else if (towns[i].name == 'Nashville') {
+            else if (temples[i].name == 'Nashville') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/nashville/nashville-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Nashville, TN');
             }
