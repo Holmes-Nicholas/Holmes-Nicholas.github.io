@@ -19,7 +19,7 @@ function showtempleInfo(jsonObj) {
 
             var myArticle = document.createElement('article');
             
-            var myH2 = document.createElement('h3);
+            var myH2 = document.createElement('h3');
             myH2.textContent = temples[i].name;
             myArticle.appendChild(myH2);
             section.appendChild(myArticle);
@@ -96,14 +96,14 @@ function showtempleInfo(jsonObj) {
                 myArticle.appendChild(myPara7);
                 section.appendChild(myArticle);
             }
-
+/*
             var myImages = document.createElement('img');
-            if (temples[i].name == 'Nashville Temple') {
-                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/nashville/nashville-day-full-small.jpg');
-                myImages.setAttribute('alt', 'Nashville Temple');
+            if (temples[i].name == 'Atlanta Georgia Temple') {
+                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full-small.jpg');
+                myImages.setAttribute('alt', 'Atlanta Georgia Temple');
             }
             myArticle.appendChild(myImages);
-
+*/
             
             section.appendChild(myArticle);
          } 
