@@ -1,0 +1,134 @@
+{
+    "temples" : [
+    {
+      "name": "Atlanta",
+      "address": [
+          "6450 Barfield Rd NE",
+          "Sandy Springs GA 30328"
+      ],
+      "telephone": "(770) 393-3698",
+      "services": [
+          "Services:",
+          "No clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+      ],
+      "history": [
+          "History:",
+          "The Atlanta Georgia Temple was the first temple built in the Southeastern United States (and in Georgia).",
+          "The Atlanta Georgia Temple was the first temple dedicated by President Gordon B. Hinckley, who went on to dedicate or rededicate 89 other temples."
+      ],
+      "ordinanceSchedule" : [
+        "Baptistry Schedule:",
+        "10:00 AM - 1:30 PM Tues - Fri",
+        "8:00 AM - 3:30 PM Saturday",
+        "Initiatory Schedule:",
+        "10:00 AM - 2:00 PM Tues - Fri",
+        "6:00 PM - 9:30 PM Tues - Fri",
+        "8:00 AM - 4:00 PM Saturday",
+        "Sealing Schedule:",
+        "10:00 AM - 2:00 PM Tues - Fri",
+        "6:00 PM - 10:00 PM Tues - Fri",
+        "8:00 AM - 5:00 PM Saturday"
+      ],
+      "sessionSchedule" : [
+        "Endowment Schedule:",
+        "Tues - Fri AM:",
+        "10:00 AM, 11:00 AM",
+        "Tues - Fri PM:",
+        "12:00 PM, 6:00 PM, 7:00 PM, 8:00 PM",
+        "Saturday AM:",
+        "8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM",
+        "Saturday PM:",
+        "12:00 PM, 1:00 PM, 2:00 PM, 3:00 PM"
+      ],
+      "closureSchedule" : [
+        "Temple Closures:",
+        "Thursday, 4 July 2019",
+        "Monday, 23 September 2019 - Monday, 7 October 2019",
+        "Saturday, 9 November 2019 (Limited Hours)",
+        "Wednesday, 27 November 2019 (Limited Hours)",
+        "Thursday, 28 November 2019",
+        "Tuesday, 24 December 2019 (Limited Hours)",
+        "Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019 (Limited Hours)",
+        "September 5 - 11: Founder Days",
+        "December 1 - 26: Christmas in the Heart"
+      ]
+    },
+    {
+      "name": "Fish Haven",
+      "motto": "This is Fish Heaven.",
+      "yearFounded": 1864,
+      "currentPopulation": 501,
+      "averageRainfall": 14.20,
+      "events" : [
+        "April 1: How Big Was That Fish Day",
+        "May 15-30: Rush the Creek Days",
+        "July 24: Bear Lake Blunder Run",
+        "December 12: Light the Tree"
+      ]
+    },
+    {
+      "name": "Greenville",
+      "motto": "Green is our way of life.",
+      "yearFounded": 1805,
+      "currentPopulation": 33458,
+      "averageRainfall": 25,
+      "events" : [
+        "February 10-12: Greenbration",
+        "May 8 - 18: Greenville Founder Days",
+        "June 20: Verde and Valiant Day",
+        "November 15-16: Greensome Gathering"
+      ]
+    },
+    {
+      "name": "Placerton",
+      "motto": "Positive Placement in Placerton.",
+      "yearFounded": 1946,
+      "currentPopulation": 512,
+      "averageRainfall": 39,
+      "events" : [
+        "July 4: A Blaze of Glory",
+        "October 20: Fall through Fall"
+      ]
+    },
+    {
+      "name": "Preston",
+      "motto": "Home of Napoleon Dynamite.",
+      "yearFounded": 1866,
+      "currentPopulation": 5204,
+      "averageRainfall": 16.65,
+      "events" : [
+        "March 29: Work Creek Revival",
+        "July 8-12: Napoleon Dynamite Festival",
+        "November 2-4: Freedom Days"
+      ]
+    },
+    {
+      "name": "Soda Springs",
+      "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
+      "yearFounded": 1858,
+      "currentPopulation": 2985,
+      "averageRainfall": 15.75,
+      "events" : [
+        "February 29: Geyser Song Day",
+        "May 1-6: Days of May Celebration",
+        "October 15-16: Octoberfest"
+      ]
+    },
+    {
+      "name": "Springfield",
+      "motto": "Where everyone is lifted.",
+      "yearFounded": 1826,
+      "currentPopulation": 17852,
+      "averageRainfall": 17,
+      "events" : [
+        "January 8: Spring into Winter",
+        "April 10-20: Celebration of Life",
+        "July 31-Aug 15: Dog Days of Summer Festival"
+      ]
+    }
+   ]
+  }

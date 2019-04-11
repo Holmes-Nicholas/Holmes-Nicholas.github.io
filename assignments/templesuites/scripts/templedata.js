@@ -1,21 +1,21 @@
 var section = document.querySelector('section');
 
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var requestURL = 'https://holmes-nicholas.github.io/assignments/templesuites/data/templedata.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 request.onload = function () {
-    var towns = request.response;
-    showtownsInfo(towns);
+    var temples = request.response;
+    showtempleInfo(temples);
 }
 
-function showtownsInfo(jsonObj) {
+function showtempleInfo(jsonObj) {
 
-    var towns = jsonObj['towns'];
-    for (var i = 0; i < towns.length; i++) {
-        if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven") { 
+    var towns = jsonObj['temples'];
+    for (var i = 0; i < temples.length; i++) {
+        if (towns[i].name == "Atlanta" || towns[i].name == "Nashville" || towns[i].name == "Orlando") { 
 
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
@@ -27,21 +27,21 @@ function showtownsInfo(jsonObj) {
 
 
             myH2.textContent = towns[i].name;
-            myPara1.textContent = towns[i].motto;
-            myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
-            myPara3.textContent = 'Population: ' + towns[i].currentPopulation;
-            myPara4.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + '"';
+            myPara1.textContent = towns[i].address;
+            myPara2.textContent = towns[i].telephone;
+            myPara3.textContent = towns[i].services;
+            myPara4.textContent = towns[i].history;
 
 
-            if (towns[i].name == 'Preston') {
+            if (towns[i].name == 'Atlanta') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Atlanta, GA');
             }
-            else if (towns[i].name == 'Soda Springs') {
+            else if (towns[i].name == 'Orlando') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/orlando/orlando-evening-full-small.jpg');
                 myImages.setAttribute('alt', 'Orlando, FL');
             }
-            else if (towns[i].name == 'Fish Haven') {
+            else if (towns[i].name == 'Nashville') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/nashville/nashville-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Nashville, TN');
             }
