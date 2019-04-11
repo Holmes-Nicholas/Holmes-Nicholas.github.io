@@ -15,7 +15,7 @@ function showtempleInfo(jsonObj) {
 
     var temples = jsonObj['temples'];
     for (var i = 0; i < temples.length; i++) {
-        if (temples[i].name == "Atlanta" || temples[i].name == "Nashville" || temples[i].name == "Orlando") { 
+        if (temples[i].name == "Atlanta Georgia Temple" || temples[i].name == "Nashville Temple" || temples[i].name == "Orlando Temple") { 
 
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
