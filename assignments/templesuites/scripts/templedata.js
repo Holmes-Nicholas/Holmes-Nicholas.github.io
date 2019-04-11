@@ -39,15 +39,15 @@ function showtempleInfo(jsonObj) {
             myPara7.textContent = temples[i].closureSchedule;
 
 
-            if (temples[i].name == 'Atlanta') {
+            if (temples[i].name == 'Atlanta Georgia Temple') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Atlanta, GA');
             }
-            else if (temples[i].name == 'Orlando') {
+            else if (temples[i].name == 'Orlando Temple') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/orlando/orlando-evening-full-small.jpg');
                 myImages.setAttribute('alt', 'Orlando, FL');
             }
-            else if (temples[i].name == 'Nashville') {
+            else if (temples[i].name == 'Nashville Temple') {
                 myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/nashville/nashville-day-full-small.jpg');
                 myImages.setAttribute('alt', 'Nashville, TN');
             }
