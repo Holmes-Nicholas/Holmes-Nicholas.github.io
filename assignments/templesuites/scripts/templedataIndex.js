@@ -19,7 +19,7 @@ function showtempleInfo(jsonObj) {
 
             var myArticle = document.createElement('article');
             
-            var myH2 = document.createElement('h2');
+            var myH2 = document.createElement('h3);
             myH2.textContent = temples[i].name;
             myArticle.appendChild(myH2);
             section.appendChild(myArticle);
@@ -32,10 +32,14 @@ function showtempleInfo(jsonObj) {
                 section.appendChild(myArticle);
             }
 
-
             var myPara2 = document.createElement('p');
             myPara2.textContent = temples[i].telephone;
             myArticle.appendChild(myPara2);
+            section.appendChild(myArticle);
+
+            var myPara3Title = document.createElement('h3');
+            myPara3Title.textContent = temples[i].servicesTitle;
+            myArticle.appendChild(myPara3Title);
             section.appendChild(myArticle);
 
             for(var j = 0; j < temples[i].services.length; j++){
@@ -68,6 +72,11 @@ function showtempleInfo(jsonObj) {
                 myArticle.appendChild(myPara5);
                 section.appendChild(myArticle);
             }
+            
+            var myPara6Title = document.createElement('h3');
+            myPara6Title.textContent = temples[i].sessionScheduleTitle;
+            myArticle.appendChild(myPara6Title);
+            section.appendChild(myArticle);
 
             for(var j = 0; j < temples[i].sessionSchedule.length; j++){
                 var myPara6 = document.createElement('p');
@@ -75,6 +84,11 @@ function showtempleInfo(jsonObj) {
                 myArticle.appendChild(myPara6);
                 section.appendChild(myArticle);
             }
+
+            var myPara7Title = document.createElement('h3');
+            myPara7Title.textContent = temples[i].closureScheduleTitle;
+            myArticle.appendChild(myPara7Title);
+            section.appendChild(myArticle);
 
             for(var j = 0; j < temples[i].closureSchedule.length; j++){
                 var myPara7 = document.createElement('p');
