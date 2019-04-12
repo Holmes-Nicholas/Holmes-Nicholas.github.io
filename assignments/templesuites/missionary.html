@@ -3,86 +3,103 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
-        <title>Weather Gallery</title>
-        <meta name="description" content="Weather Gallery for the Preston, Soda Springs, and Fish Haven areas of South East Idaho (SEID).">
+        <title>The Temple Inn and Suites Hotels Site</title>
+        <meta name="description" content="Site for The Temple Inn and Suites Hotel chain serving temple patrons.">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
         <link rel="stylesheet" media="(min-width:1024px)" href="css/large.css">
-        <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <header class="clearfix">
+        <header id="mainHeader" class= "templeMainHeader">
             <div id="flex-headings">
                 <div id="head-image">    
-                    <img src="images/weather-logo.png" alt="SEID weather site logo">
+                    <img src="images/temple-logo.png" alt="Temple Suites and Inn site logo">
                 </div>
                 <div id="head-title">
                     <div class="headings">
-                        <h1>SEID Weather Site</h1>
-                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                        <h1>The Temple Inn & Suites</h1>
+                        <div class="motto">&quot;Serving the Servants of the Lord.&quot;</div>
                     </div>
                 </div>
             </div>  
-            <nav>
+        
+            <nav class="clearfix">
                 <div class="nav-bar">
                     <ul class="navbar">
                         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="preston.html">Preston</a></li>
-                        <li><a href="sodasprings.html">Soda Springs</a></li>
-                        <li><a href="fishhaven.html">Fish Haven</a></li>
-                        <li><a href="stormcenter.html">Storm Center</a></li>
-                        <li><a class="active" href="#gallery">Gallery</a></li>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <main class="clearfix">
-            <h2>Weather Gallery</h2>
-            <div class="container">
-                <div class="gallery">
-                <figure><img class="gallery1" src="images/gallery/rainbow-80-640.jpg" alt="a rainbow over a green field">
-                    <figcaption>A beautiful rainbow spans across a green field in Preston, Idaho.</figcaption>
-                </figure>
-                </div>
-                <div class="gallery">
-                <figure><img class="gallery1" src="images/gallery/fog-80-640.jpg" alt="fog going through pine trees">
-                    <figcaption>A foggy morning in Fish Haven, Idaho.</figcaption>
-                </figure>
-                </div>
-                <div class="gallery">
-                <figure><img class="gallery1" src="images/gallery/lightening-80-640.jpg" alt="lightening striking at night">
-                    <figcaption>Lightening strikes at night in Preston, Idaho.</figcaption>
-                </figure>
-                </div>
-                <div class="gallery">
-                <figure><img class="gallery1" src="images/gallery/snowyroad-60-640.jpg" alt="snow covered dirt road through a forest">
-                    <figcaption>Muddy tracks on a snowy country road in Soda Springs, Idaho.</figcaption>
-                </figure>
-                </div>
-                <div class="gallery">
-                <figure><img class="gallery1" src="images/gallery/sunny-60-640.jpg" alt="summer scene of water with a green field, green trees, and rocky mountains">
-                    <figcaption>An idealic meadow sits in front of a green field with green trees and majestic mountains in the background.</figcaption>
-                </figure>
-                </div>
-                <div class="gallery">
-                <figure><img class="gallery1" src="images/gallery/autumn-60-640.jpg" alt="sun setting behind trees during autumn">
-                    <figcaption>The sun is setting through fall trees in Soda Springs, Idaho.</figcaption>
-                </figure>
-                </div>
-            </div>
+        <main>
             <br>
+                <a class="button" href="reservation.html">Make a Reservation</a> 
+                <br> 
+                <br>
+                <h3>Stay at one of our hotels by these beautiful temples!</h3><br>
+                <div class="container">
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/nashville/nashville-day-full-small.jpg" alt="View of the Nashville Tennessee Temple on a sunny day.">
+                        <figcaption>Nashville Tennesse</figcaption>
+                    </figure>
+                    <p>Announcement:  9 November 1994.</p>
+                    <p>Groundbreaking and Site Dedication:  13 March 1999 by John K. Carmack.</p>
+                    <p>Dedication:  21 May 2000 by James E. Faus.t</p>
+                    </div>
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/sandiego/sandiego-wedding.jpg" alt="Family in white stands in front of the San Diego California Temple.">
+                        <figcaption>San Diego California</figcaption>
+                    </figure>
+                    <p>Announcement:  7 April 1984.</p>
+                    <p>Groundbreaking and Site Dedication:  27 February 1988 by Ezra Taft Benson.</p>
+                    <p>Dedication:  25–30 April 1993 by Gordon B. Hinckley.</p>
+                    </div>
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/orlando/orlando-evening-full-small.jpg" alt="View of the Orlando Florida Temple at sunset with the moon in the background.">
+                        <figcaption>Orlando Florida</figcaption>
+                    </figure>
+                    <p>Announcement:  17 February 1990.</p>
+                    <p>Groundbreaking and Site Dedication:  20 June 1992 by James E. Faust.</p>
+                    <p>Dedication:  9–11 October 1994 by Howard W. Hunter.</p>
+                    </div>
+                    </figure>
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/atlanta/atlanta-celestial.jpg" alt="View of the Celestial Room of the Atlanta Georgia Temple before it was dedicated.">
+                        <figcaption>Atlanta Georgia</figcaption>
+                    </figure>
+                    <p>Announcement:  2 April 1980.</p>
+                    <p>Groundbreaking and Site Dedication:  7 March 1981 by Spencer W. Kimball.</p>
+                    <p>Dedication:  1–4 June 1983 by Gordon B. Hinckley.</p>
+                    <p>Rededication:  1 May 2011 by Thomas S. Monson.</p>
+                    </div>
+                    </figure>
+                </div>
+                <br>
+                <br>  
+            </div>
+        <br><br>
         </main>
-        <footer>
+        <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">
             <div class="footer-upper">
-            <h3>Contact Information</h3>
-            <p>Nicholas Holmes</p>
+            <h3>Contact Information</h3><br>
+            <p>The Temple Inn & Suites</p>
             <p>holmes18@byui.edu</p>
             <p>865-555-5555</p>
             </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script></p>
+            <br>
+           <div class="footer-lower">
+            <p><script src="scripts/currentdate.js"></script></p>
+            <p><a href="tos.html">Terms of Use</a></p>
+            <p>&copy;2019 - Nicholas Holmes</p>
             </div>
         </footer>
+    <script src="scripts/hamburger.js"></script>
     </body>
 </html>

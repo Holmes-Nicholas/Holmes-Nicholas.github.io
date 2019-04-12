@@ -105,22 +105,14 @@
         max-width: 100vw;
     }
 
-    .servicesContainerTitle {
-        margin: 1rem auto; 
-        display:grid;
-        justify-self: center;
-        grid-template-columns: 1fr 1fr; 
-        max-width: 100vw;
-        text-align: center;
-    }
-
     .servicesContainer {
         margin: 1rem auto; 
         display:grid;
         justify-self: center;
         grid-template-columns: 1fr 1fr; 
-        max-width: 100vw;
+        max-width: 60vw;
         text-align: justify;
+        grid-gap: 50px;
     }
 
     .container {

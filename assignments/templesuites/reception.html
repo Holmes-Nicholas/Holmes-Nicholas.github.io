@@ -3,126 +3,103 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
-        <title>Preston Idaho Weather Site | current weather and five day forecast</title>
-        <meta name="description" content="Weather Site for Preston Idaho.">
+        <title>The Temple Inn and Suites Hotels Site</title>
+        <meta name="description" content="Site for The Temple Inn and Suites Hotel chain serving temple patrons.">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
         <link rel="stylesheet" media="(min-width:1024px)" href="css/large.css">
-        <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <header class="clearfix">
+        <header id="mainHeader" class= "templeMainHeader">
             <div id="flex-headings">
                 <div id="head-image">    
-                    <img src="images/weather-logo.png" alt="SEID weather site logo">
+                    <img src="images/temple-logo.png" alt="Temple Suites and Inn site logo">
                 </div>
                 <div id="head-title">
                     <div class="headings">
-                        <h1>SEID Weather Site</h1>
-                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                        <h1>The Temple Inn & Suites</h1>
+                        <div class="motto">&quot;Serving the Servants of the Lord.&quot;</div>
                     </div>
                 </div>
             </div>  
-            <nav>
+        
+            <nav class="clearfix">
                 <div class="nav-bar">
                     <ul class="navbar">
                         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a class="active" href="#preston">Preston</a></li>
-                        <li><a href="sodasprings.html">Soda Springs</a></li>
-                        <li><a href="fishhaven.html">Fish Haven</a></li>
-                        <li><a href="stormcenter.html">Storm Center</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <main>
-                    <h2>Preston</h2>
-                    <div class="wrapsummary">
-                        <figure class="prestonhero">
-                            <img src="images/franklin-px75-1080.jpg" alt="Preston Idaho with partly cloudy blue skies and mountains in the background" sizes="90vw"
-                            srcset="images/franklin-px75-720.jpg 720w,
-                                    images/franklin-px75-1080.jpg 1080w">
-                        </figure>
-                        <div class="summary">
-                            <h3>Weather Summary</h3>
-                            <hr>
-                            <p>Currently: <span id="currently"></span></p>
-                            <p>High: <span id="high"></span>&#8457;</p>
-                            <div id="windchill"></div>
-                            <p>Humidity: <span id="humidity"></span>&#37;</p>
-                            <p>Wind Speed: <span id="wind"></span> mph</p>                            
-                        </div>
-                    </div>
-                    <div class="fiveday">
-                        <h3>5 Day Forecast</h3>
-                        <div class="forecastcontainer">
-                            <div class="forecast">
-                                <p class="day">Day 1</p>
-                                <p id="day1"></p>
-                                <img id="cc-img1" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 2</p>
-                                <p id="day2"></p>
-                                <img id="cc-img2" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 3</p>
-                                <p id="day3"></p>
-                                <img id="cc-img3" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 4</p>
-                                <p id="day4"></p>
-                                <img id="cc-img4" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 5</p>
-                                <p id="day5"></p>
-                                <img id="cc-img5" src="." alt=".">
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="cityContainer">
-                        <div class="citydiv">
-                            <br>
-                            <section>
-                                <h3>City Events</h3>
-                            </section>
-                        <br>
-                        </div>
-                        <div class="citydiv">
-                            <img class="story-cover" src="images/snowyroads.JPG" alt="cars driving on preston idaho snowy roads">
-                        </div>
-                    </div>
-
-            <script src="scripts/weatherapi.js"></script>
-            <script src="scripts/forecastapi.js"></script>
-            <script src="scripts/windchill.js"></script>
-            <script src="scripts/townevents.js"></script>
             <br>
-        </main>
-        <br>
-        <footer>
-            <div class="footerContainer">
-            <div class="footer-uppercity">
-                <h3>Contact Information</h3>
-                <p>Nicholas Holmes</p>
-                <p>holmes18@byui.edu</p>
-                <p>865-555-5555</p>
-            </div>
-            <div class="footer-uppercity">
-                <div class="h_iframe">
-                    <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39829.253430564444!2d-111.92684405053508!3d42.100467611726636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549309485221" style="border:0" allowfullscreen></iframe>
+                <a class="button" href="reservation.html">Make a Reservation</a> 
+                <br> 
+                <br>
+                <h3>Stay at one of our hotels by these beautiful temples!</h3><br>
+                <div class="container">
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/nashville/nashville-day-full-small.jpg" alt="View of the Nashville Tennessee Temple on a sunny day.">
+                        <figcaption>Nashville Tennesse</figcaption>
+                    </figure>
+                    <p>Announcement:  9 November 1994.</p>
+                    <p>Groundbreaking and Site Dedication:  13 March 1999 by John K. Carmack.</p>
+                    <p>Dedication:  21 May 2000 by James E. Faus.t</p>
+                    </div>
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/sandiego/sandiego-wedding.jpg" alt="Family in white stands in front of the San Diego California Temple.">
+                        <figcaption>San Diego California</figcaption>
+                    </figure>
+                    <p>Announcement:  7 April 1984.</p>
+                    <p>Groundbreaking and Site Dedication:  27 February 1988 by Ezra Taft Benson.</p>
+                    <p>Dedication:  25–30 April 1993 by Gordon B. Hinckley.</p>
+                    </div>
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/orlando/orlando-evening-full-small.jpg" alt="View of the Orlando Florida Temple at sunset with the moon in the background.">
+                        <figcaption>Orlando Florida</figcaption>
+                    </figure>
+                    <p>Announcement:  17 February 1990.</p>
+                    <p>Groundbreaking and Site Dedication:  20 June 1992 by James E. Faust.</p>
+                    <p>Dedication:  9–11 October 1994 by Howard W. Hunter.</p>
+                    </div>
+                    </figure>
+                    <div class="galleryContainer">
+                    <figure><img class="gallery1" src="images/temple/atlanta/atlanta-celestial.jpg" alt="View of the Celestial Room of the Atlanta Georgia Temple before it was dedicated.">
+                        <figcaption>Atlanta Georgia</figcaption>
+                    </figure>
+                    <p>Announcement:  2 April 1980.</p>
+                    <p>Groundbreaking and Site Dedication:  7 March 1981 by Spencer W. Kimball.</p>
+                    <p>Dedication:  1–4 June 1983 by Gordon B. Hinckley.</p>
+                    <p>Rededication:  1 May 2011 by Thomas S. Monson.</p>
+                    </div>
+                    </figure>
                 </div>
+                <br>
+                <br>  
             </div>
+        <br><br>
+        </main>
+        <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">
+            <div class="footer-upper">
+            <h3>Contact Information</h3><br>
+            <p>The Temple Inn & Suites</p>
+            <p>holmes18@byui.edu</p>
+            <p>865-555-5555</p>
             </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script> - <a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
+            <br>
+           <div class="footer-lower">
+            <p><script src="scripts/currentdate.js"></script></p>
+            <p><a href="tos.html">Terms of Use</a></p>
+            <p>&copy;2019 - Nicholas Holmes</p>
             </div>
         </footer>
+    <script src="scripts/hamburger.js"></script>
     </body>
 </html>
