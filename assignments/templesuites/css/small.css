@@ -256,7 +256,9 @@ img.gallery1 {
     margin: .5rem;
 }
 
-figcaption {font-size: smaller;}
+figcaption {
+    font-size: 1.2rem;
+}
 
 section {
     width: 90%;

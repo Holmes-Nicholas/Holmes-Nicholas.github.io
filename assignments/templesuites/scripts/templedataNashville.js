@@ -15,7 +15,7 @@ function showtempleInfo(jsonObj) {
 
     var temples = jsonObj['temples'];
     for (var i = 0; i < temples.length; i++) {
-        if (temples[i].name == "Atlanta Georgia Temple") { 
+        if (temples[i].name == "Nashville Tennessee Temple") { 
 
             var myArticle = document.createElement('article');
             
@@ -96,14 +96,6 @@ function showtempleInfo(jsonObj) {
                 myArticle.appendChild(myPara7);
                 section.appendChild(myArticle);
             }
-/*
-            var myImages = document.createElement('img');
-            if (temples[i].name == 'Atlanta Georgia Temple') {
-                myImages.setAttribute('src', 'https://holmes-nicholas.github.io/assignments/templesuites/images/temple/atlanta/atlanta-day-full-small.jpg');
-                myImages.setAttribute('alt', 'Atlanta Georgia Temple');
-            }
-            myArticle.appendChild(myImages);
-*/
             
             section.appendChild(myArticle);
          } 

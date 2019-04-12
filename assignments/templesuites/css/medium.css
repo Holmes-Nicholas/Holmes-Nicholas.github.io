@@ -51,8 +51,8 @@
         margin: 0 auto;
     }
    
-    main figure.prestonhero img {
-        width: 80vw;
+    main figure.hero img {
+        width: 45vw;
         margin: 0 auto;
     }
   
@@ -96,7 +96,7 @@
         margin: .5rem;
     }
         
-    figcaption {font-size: smaller;}
+    /*figcaption {font-size: smaller;}*/
 
     .fiveday {
         margin: 1rem auto; 
