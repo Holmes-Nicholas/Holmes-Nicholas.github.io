@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
         <title>Reservation page for The Temple Inn and Suites site</title>
         <meta name="description" content="Make a reservation at one of The Temple Inn and Suites.">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/form.css">
         <link rel="stylesheet" href="css/small.css">
@@ -13,7 +14,7 @@
         <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <header class="clearfix">
+            <header id="mainHeader" class= "templeMainHeader">
             <div id="flex-headings">
                 <div id="head-image">    
                     <img src="images/temple-logo.png" alt="The Temple Inn and Suites site logo">
@@ -111,14 +112,18 @@
             </div>
         </main>
         <br>
-        <footer>
+        <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">
             <div class="footer-upper">
-            <h3>Contact Information</h3>
-            <p>The Temple Inn & Suites</p>
-            <p>holmes18@byui.edu</p>
-            <p>865-555-5555</p>
+                <h3>Contact Information</h3><br>
+                <p>The Temple Inn & Suites</p>
+                <p>holmes18@byui.edu</p>
+                <p>865-555-5555</p>
             </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script></p>
+            <br>
+            <div class="footer-lower">
+                <p><script src="scripts/currentdate.js"></script></p>
+                <p><a href="tos.html">Terms of Use</a></p>
+                <p>&copy;2019 - Nicholas Holmes</p>
             </div>
         </footer>
     </body>

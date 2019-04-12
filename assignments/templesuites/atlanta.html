@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
         <title>Atlanta Temple Information Site</title>
         <meta name="description" content="Temple Information for the Atlanta Georgia Temple.">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
@@ -12,7 +13,7 @@
         <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <header class="clearfix">
+        <header id="mainHeader" class= "templeMainHeader">
             <div id="flex-headings">
                 <div id="head-image">    
                     <img src="images/temple-logo.png" alt="Temple Suites and Inn site logo">
@@ -71,21 +72,29 @@
             <br>
         </main>
         <br>
-        <footer>
+        <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">
             <div class="footerContainer">
-            <div class="footer-uppercity">
-                <h3>Contact Information</h3>
-                <p>The Temple Inn & Suites</p>
-                <p>holmes18@byui.edu</p>
-                <p>865-555-5555</p>
-            </div>
-            <div class="footer-uppercity">
-                <div class="h_iframe">
-                    <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.364834924658!2d-84.36476068448202!3d33.93174343151727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50ea8e4fc2e4d%3A0xfcf6f5a873014754!2sAtlanta+Georgia+Temple!5e0!3m2!1sen!2sus!4v1555035121481!5m2!1sen!2sus" title="Google Map of the Atlanta Georgia Temple" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>" style="border:0" allowfullscreen></iframe>
+                <div class="footer-uppercity">
+                    <br>
+                    <h3>Contact Information</h3>
+                    <p>The Temple Inn & Suites</p>
+                    <p>holmes18@byui.edu</p>
+                    <p>865-555-5555</p>
+                    <br>
+                </div>
+            
+                <div class="footer-uppercity">
+                    <div class="h_iframe">
+                        <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.364834924658!2d-84.36476068448202!3d33.93174343151727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50ea8e4fc2e4d%3A0xfcf6f5a873014754!2sAtlanta+Georgia+Temple!5e0!3m2!1sen!2sus!4v1555035121481!5m2!1sen!2sus" title="Google Map of the Atlanta Georgia Temple" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-            </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script> - <a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
+            <div class="footer-lower">
+                <br>
+                <p><script src="scripts/currentdate.js"></script></p>
+                <p><a href="tos.html">Terms of Use</a></p>
+                <p><a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
+                <p>&copy;2019 - Nicholas Holmes</p>
             </div>
         </footer>
         <script src="scripts/hamburger.js"></script>

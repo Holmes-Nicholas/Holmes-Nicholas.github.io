@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
         <title>San Diego Temple Information Site</title>
         <meta name="description" content="Temple Information for the San Diego California Temple.">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
@@ -12,7 +13,7 @@
         <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <header class="clearfix">
+        <header id="mainHeader" class= "templeMainHeader">
             <div id="flex-headings">
                 <div id="head-image">    
                     <img src="images/temple-logo.png" alt="Temple Suites and Inn site logo">
@@ -71,13 +72,15 @@
             <br>
         </main>
         <br>
-        <footer>
+        <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">
             <div class="footerContainer">
             <div class="footer-uppercity">
+                <br><br>
                 <h3>Contact Information</h3>
                 <p>The Temple Inn & Suites</p>
                 <p>holmes18@byui.edu</p>
                 <p>865-555-5555</p>
+                <br>
             </div>
             <div class="footer-uppercity">
                 <div class="h_iframe">
@@ -85,7 +88,12 @@
                 </div>
             </div>
             </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script> - <a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
+            <div class="footer-lower">
+                <br>
+                <p><script src="scripts/currentdate.js"></script></p>
+                <p><a href="tos.html">Terms of Use</a></p>
+                <p><a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
+                <p>&copy;2019 - Nicholas Holmes</p>
             </div>
         </footer>
         <script src="scripts/hamburger.js"></script>

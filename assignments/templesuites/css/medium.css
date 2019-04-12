@@ -45,7 +45,6 @@
     
     header h1 {
         font-size: 4.5vw;
-        font-family: Helvetica, sans-serif;
         margin: 1.0rem;
     }
 
@@ -88,6 +87,7 @@
 
     .formcontainer {
         width: 80%;
+        margin-top: 5vw;
       }
    
     .container {
@@ -192,12 +192,10 @@
     .footer-upper { 
         width:80vw;
         margin: 0 auto;
-        background: #d6d6d6; 
 
     }
     .footer-lower { 
         width:80vw;
         margin: 0 auto;
-        background: #d6d6d6; 
     }  
 }
