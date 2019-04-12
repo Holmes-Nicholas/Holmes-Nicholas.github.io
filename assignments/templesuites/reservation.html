@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Preston, Soda Springs, and Fish Haven Weather</title>
-        <meta name="description" content="Weather Site for the Preston, Soda Springs, and Fish Haven areas of South East Idaho (SEID).">
+        <title>Reservation page for The Temple Inn and Suites site</title>
+        <meta name="description" content="Make a reservation at one of The Temple Inn and Suites.">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/form.css">
         <link rel="stylesheet" href="css/small.css">
@@ -13,20 +13,15 @@
         <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <script>
-            function adjustRating(rating) {
-                document.getElementById("ratingvalue").innerHTML = rating;
-            }
-        </script>
         <header class="clearfix">
             <div id="flex-headings">
                 <div id="head-image">    
-                    <img src="images/weather-logo.png" alt="SEID weather site logo">
+                    <img src="images/temple-logo.png" alt="The Temple Inn and Suites site logo">
                 </div>
                 <div id="head-title">
                     <div class="headings">
-                        <h1>SEID Weather Site</h1>
-                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                        <h1>The Temple Inn & Suites</h1>
+                        <div class="motto">&quot;Serving the Servants of the Lord.&quot;</div>
                     </div>
                 </div>
             </div>  
@@ -35,25 +30,30 @@
                     <ul class="navbar">
                         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="preston.html">Preston</a></li>
-                        <li><a href="sodasprings.html">Soda Springs</a></li>
-                        <li><a href="fishhaven.html">Fish Haven</a></li>
-                        <li><a class="active" href="#storm-center">Storm Center</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a class="active" href="reservation.html">Reservation</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <main>
+            <div class="formcontainer">
             <form id=contact>
                 <fieldset>
-                    <legend>Report a Storm</legend>
-                    <ol>
+                    <legend>Make a Reservation</legend>
+                    <ol class="flex-outer">
                         <li>
                             <label for=name>Name</label>
                             <input id=name name=name type=text placeholder="First and Last name" required autofocus
                             minlength="5" pattern="[A-Za-z ]+">
                         </li>
+                        <li>
+                            <label for=home>Home Location</label>
+                            <input id=home name=home type=text placeholder="State or Country" required autofocus
+                            minlength="2" pattern="[A-Za-z ]+">
+                            </li>
                         <li>
                             <label for=email>Email</label>
                             <input id=email name=email type=email placeholder="example@domain.com">
@@ -63,72 +63,58 @@
                             <input id=phone name=phone type=tel placeholder="Ex 8015555555" required>
                         </li>
                         <li>
-                            <label for=zip>Zip Code</label>
-                            <input id=zip name=zip type=number required>
+                            <label for=checkin>Check-In</label>
+                            <input id=checkin name=checkin type=date>
                         </li>
                         <li>
-                            <label for=stormdate>Storm Date</label>
-                            <input id=stormdate name=stormdate type=date>
+                            <label for=checkout>Check-Out</label>
+                            <input id=checkout name=checkout type=date>
                         </li>
                         <li>
-                            <label for=stormtype>Storm Type</label>
-                            <input list=stormtype name=stormtype>
-                            <datalist id=stormtype>
-                                <option value="Flash Flood">
-                                <option value="Hail">
-                                <option value="Hurricane">
-                                <option value="Thunderstorm">
-                                <option value="Tornado">
+                            <fieldset>
+                            <label for='temple'>Select a Location</label>
+                            <ul class="flex-inner">
+                            <select name='temple'>
+                                <option selected='true' disabled='disabled'>Select Temple</option>
+                                <option value="nashville">Nashville</option>
+                                <option value="atlanta">Atlanta</option>
+                                <option value="orlando">Orlando</option>
+                                <option value="sandiego">San Diego</option>
+                            </select>
+                            </ul>
+                            </fieldset>
+                        <li>
+                            <label for=roomtype>Room Type</label>
+                            <input list=roomtype name=roomtype>
+                            <datalist id=roomtype>
+                                <option value="Standard Queen">
+                                <option value="Deluxe Double Queen">
+                                <option value="Standard King">
+                                <option value="Deluxe King">
+                                <option value="Extended Stay Suite">
                             </datalist>
                         </li>
                         <li>
-                            <fieldset>
-                            <label for=rating>Storm Severity (1 to 10)</label>
-                            <input type="range" name=rating id=rating value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                            <span id="ratingvalue">5</span><br>
-                            </fieldset>
+                        <label for=rooms>Number of Rooms</label>
+                        <input id=rooms name=rooms type=number required>
+                        </li>
                         </li>
                         <li>
-                            <fieldset>
-                            <label for='region'>Storm Region</label>
-                            <select name='region'>
-                                <option selected='true' disabled='disabled'>Select Region</option>
-                                <option value="preston">Preston</option>
-                                <option value="sodasprings">Soda Springs</option>
-                                <option value="fishhaven">Fish Haven</option>
-                            </select>
-                            </fieldset>
+                            <label for="requests">Special Requests and Comments: </label>
+                            <textarea id="requests" name="msg" maxlength="140" rows="5"></textarea>
                         </li>
-                        <li>
-                            <fieldset>
-                            <label>User In-Danger Level </label><br>
-                            <div id=radio>
-                                <input id="yes" name=danger type=radio>
-                                <label for="yes">Yes</label><br>
-                                <input id="maybe" name=danger type=radio>
-                                <label for="maybe">Maybe</label><br>                         
-                                <input id="no" name=danger type=radio>
-                                <label for="no">No</label><br>
-                            </div>
-                            </fieldset>
-                        </li>
-                        <li>
-                                <label for="comments">Additional info/comments: </label>
-                                <textarea id="comments" name="msg" maxlength="140" rows="5"></textarea>
-                        </li>
-                       
-                            
-                        
                     </ol>
+                    <br>
                     <button type="submit" formaction="thanks.html">Submit</button>
                 </fieldset>
             </form>
+            </div>
         </main>
         <br>
         <footer>
             <div class="footer-upper">
             <h3>Contact Information</h3>
-            <p>Nicholas Holmes</p>
+            <p>The Temple Inn & Suites</p>
             <p>holmes18@byui.edu</p>
             <p>865-555-5555</p>
             </div>

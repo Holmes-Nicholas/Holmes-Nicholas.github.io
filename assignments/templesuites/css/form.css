@@ -1,1 +1,114 @@
-body,fieldset,form,h1,html,legend,li,ol{margin:0 auto;padding:0}h1{font-size:28px;margin:0 auto 20px}body{background:#fff;color:#111;font-family:Georgia,"Times New Roman",Times,serif}form#contact{background:#ff8200;border-radius:5px;counter-reset:fieldsets;padding:20px;max-width:400px}form#contact fieldset{border:0;margin-bottom:10px}form#contact fieldset:last-of-type{margin-bottom:0}form#contact legend{color:#58595b;font-size:16px;font-weight:700;padding-bottom:10px;text-shadow:0 1px 1px #fff}form#rating{padding:100px;line-height:60px}form#contact>fieldset>legend:before{counter-increment:fieldsets}form#contact fieldset fieldset legend{color:#111;font-size:13px;font-weight:400;padding-bottom:0}form#contact ol li{background:#58595b;background:rgba(255,255,255,.3);border-color:#58595b;border-color:rgba(255,255,255,.6);border-style:solid;border-width:2px;-moz-border-radius:5px;border-radius:5px;line-height:30px;list-style:none;padding:5px 10px;margin-bottom:2px}form#contact ol ol li{background:0 0;border:0;float:left}form#contact label{float:left;font-size:13px;width:120px}form#contact fieldset fieldset label{background:no-repeat left 50%;line-height:20px;padding:0 0 0 30px;width:auto}#radio{margin-left:60%}form#contact fieldset fieldset label:hover{cursor:pointer}form#contact textarea{background:#fff;border:0;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;font:italic 13px Georgia,"Times New Roman",Times,serif;outline:0;padding:5px;width:200px}form#contact input:not([type=submit]):focus,form#contact textarea:focus{background:#eaeaea}form#contact input[type=radio]{float:left;margin-right:5px}form#contact button{background:#58595b;border:0;-moz-border-radius:20px;-webkit-border-radius:20px;-khtml-border-radius:20px;border-radius:20px;color:#fff;display:block;font:18px Georgia,"Times New Roman",Times,serif;letter-spacing:1px;margin:auto;padding:7px 25px;text-shadow:0 1px 1px #000;text-transform:uppercase}form#contact button:hover{background:#1e2506;cursor:pointer}
+html, h1, form, fieldset, legend, ol, li {
+	margin: 0 auto;
+    }
+
+legend {
+    font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+    text-shadow: 0 1px 1px #fff;
+}
+
+form#contact > fieldset > legend:before {
+	counter-increment: fieldsets;
+    }
+
+
+
+form#contact {
+    border-radius: 5px;
+    counter-reset: fieldsets;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+body {
+    font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+    background: #3AAFAB;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .formcontainer {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #B9E1E2;
+  }
+  
+  .formcontainer * {
+    box-sizing: border-box;
+  }
+  
+  .flex-outer,
+  .flex-inner {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .flex-outer {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .flex-outer li,
+  .flex-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .flex-inner {
+    padding: 0 8px;
+    justify-content: space-between;  
+  }
+  
+  .flex-outer > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .flex-outer li label,
+  .flex-outer li p {
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  
+  .flex-outer > li > label,
+  .flex-outer li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+  }
+  
+  .flex-outer > li > label + *,
+  .flex-inner {
+    flex: 1 1 220px;
+  }
+  
+  .flex-outer li p {
+    margin: 0;
+  }
+  
+  .flex-outer li input:not([type='checkbox']),
+  .flex-outer li textarea {
+    padding: 15px;
+    border: none;
+  }
+
+  form#contact button {
+	background: #58595B;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+  }

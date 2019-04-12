@@ -76,6 +76,10 @@
         height: auto;
         padding: .5rem;
     }
+
+    .formcontainer {
+        width: 80%;
+      }
    
     .container {
         margin: 1rem auto; 

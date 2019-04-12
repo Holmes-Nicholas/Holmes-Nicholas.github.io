@@ -239,7 +239,12 @@ img.story-cover {
     padding: .5rem;
 }
 
-.container {margin: 1rem auto; 
+.formcontainer {
+    width: 95%;
+  }
+
+.container {
+    margin: 1rem auto; 
     display:grid; 
     grid-template-columns: 1fr; 
     max-width: 1048px;
