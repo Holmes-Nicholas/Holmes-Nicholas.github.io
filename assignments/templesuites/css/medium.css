@@ -99,7 +99,17 @@
         margin-left: auto;
         margin-right: auto;
         width: 90%;
+    }
 
+    .servicesContainer ul{
+        margin-left: 0vw;
+    }
+
+    .servicesContainer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
     
     .servicesContainer {
@@ -107,9 +117,9 @@
         display:grid;
         justify-self: center;
         grid-template-columns: 1fr 1fr; 
-        max-width: 100vw;
-        text-align: justify;
-        grid-gap: 50px;
+        max-width: 80vw;
+        text-align: left;
+        grid-gap: 60px;
     }
    
     .container {

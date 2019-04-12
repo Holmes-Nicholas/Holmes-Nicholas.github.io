@@ -106,13 +106,12 @@
     }
 
     .servicesContainer {
-        margin: 1rem auto; 
         display:grid;
         justify-self: center;
         grid-template-columns: 1fr 1fr; 
-        max-width: 60vw;
-        text-align: justify;
-        grid-gap: 50px;
+        max-width: 70vw;
+        text-align: left;
+        grid-gap: 100px;
     }
 
     .container {

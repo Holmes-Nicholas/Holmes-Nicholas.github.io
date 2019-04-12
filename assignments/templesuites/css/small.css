@@ -256,7 +256,32 @@ img.story-cover {
 
 .formcontainer {
     width: 95%;
-  }
+}
+
+.servicesContainer h3 {
+    text-align: center;
+}
+
+.servicesContainer a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.servicesContainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.servicesContainer {
+    margin: 1rem auto; 
+    justify-self: center;
+    max-width: 100vw;
+    text-align: left;
+}
 
 .container {
     margin: 1rem auto; 
