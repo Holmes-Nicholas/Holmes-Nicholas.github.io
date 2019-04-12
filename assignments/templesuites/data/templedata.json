@@ -7,19 +7,19 @@
           "Sandy Springs GA 30328"
       ],
       "telephone": "(770) 393-3698",
-      "servicesTitle": "Services:",
+      "servicesTitle": "Services",
       "services": [
           "No clothing rental available",
           "No cafeteria available",
           "No patron housing available",
           "Distribution center nearby"
       ],
-      "historyTitle": "History:",
+      "historyTitle": "History",
       "history": [
           "The Atlanta Georgia Temple was the first temple built in the Southeastern United States (and in Georgia).",
           "The Atlanta Georgia Temple was the first temple dedicated by President Gordon B. Hinckley, who went on to dedicate or rededicate 89 other temples."
       ],
-      "ordinanceScheduleTitle": "Ordinance Schedule:",
+      "ordinanceScheduleTitle": "Ordinance Schedule",
       "ordinanceSchedule" : [
         "Baptistry:",
         "10:00 AM - 1:30 PM Tues - Fri",
@@ -33,7 +33,7 @@
         "6:00 PM - 10:00 PM Tues - Fri",
         "8:00 AM - 5:00 PM Saturday"
       ],
-      "sessionScheduleTitle": "Endowment Schedule:",
+      "sessionScheduleTitle": "Endowment Schedule",
       "sessionSchedule" : [
         "Tues - Fri AM:",
         "10:00 AM, 11:00 AM",
@@ -44,7 +44,7 @@
         "Saturday PM:",
         "12:00 PM, 1:00 PM, 2:00 PM, 3:00 PM"
       ],
-      "closureScheduleTitle": "Temple Closures:",
+      "closureScheduleTitle": "Temple Closures",
       "closureSchedule" : [
         "Thursday, 4 July 2019",
         "Monday, 23 September 2019 - Monday, 7 October 2019",
@@ -59,174 +59,154 @@
       ]
     },
     {
-      "name": "Nashville Temple",
+      "name": "Nashville Tennessee Temple",
       "address": [
-          "6450 Barfield Rd NE",
-          "Sandy Springs GA 30328"
+          "1100 Gray Fox Ln", 
+          "Franklin TN 37069"
       ],
-      "telephone": "(770) 393-3698",
+      "telephone": "(615) 791-8668",
+      "servicesTitle": "Services",
       "services": [
-          "Services:",
           "No clothing rental available",
           "No cafeteria available",
           "No patron housing available",
-          "Distribution center nearby"
+          "No distribution center nearby"
       ],
+      "historyTitle": "History",
       "history": [
-          "History:",
-          "The Atlanta Georgia Temple was the first temple built in the Southeastern United States (and in Georgia).",
-          "The Atlanta Georgia Temple was the first temple dedicated by President Gordon B. Hinckley, who went on to dedicate or rededicate 89 other temples."
+        "The Nashville Tennessee Temple was the second temple built in Tennessee, following the Memphis Tennessee Temple (2000).",
+        "When the First Presidency announced plans for the Nashville Tennessee Temple, there were only four operating temples east of the Mississippi River."
       ],
+      "ordinanceScheduleTitle": "Ordinance Schedule",
       "ordinanceSchedule" : [
-        "Baptistry Schedule:",
-        "10:00 AM - 1:30 PM Tues - Fri",
+        "Baptistry:",
+        "6:00 PM 7:30 PM Tues, Thurs, Fri",
         "8:00 AM - 3:30 PM Saturday",
-        "Initiatory Schedule:",
-        "10:00 AM - 2:00 PM Tues - Fri",
-        "6:00 PM - 9:30 PM Tues - Fri",
-        "8:00 AM - 4:00 PM Saturday",
-        "Sealing Schedule:",
-        "10:00 AM - 2:00 PM Tues - Fri",
+        "Initiatory:",
+        "6:00 PM - 8:30 PM Tues - Fri",
+        "8:00 AM - 3:00 PM Saturday",
+        "Sealing:",
+        "8:00 AM - 2:00 PM Tues - Fri",
         "6:00 PM - 10:00 PM Tues - Fri",
-        "8:00 AM - 5:00 PM Saturday"
+        "8:00 AM - 3:00 PM Saturday"
       ],
+      "sessionScheduleTitle": "Endowment Schedule",
       "sessionSchedule" : [
-        "Endowment Schedule:",
         "Tues - Fri AM:",
         "10:00 AM, 11:00 AM",
-        "Tues - Fri PM:",
-        "12:00 PM, 6:00 PM, 7:00 PM, 8:00 PM",
+        "Tues, Thurs, Fri PM:",
+        "6:00 PM, 7:30 PM",
+        "Wed, Fri AM:",
+        "10:00 AM, 11:30 AM",
         "Saturday AM:",
-        "8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM",
+        "8:00 AM, 10:00 AM",
         "Saturday PM:",
-        "12:00 PM, 1:00 PM, 2:00 PM, 3:00 PM"
+        "12:00 PM, 2:00 PM"
       ],
+      "closureScheduleTitle": "Temple Closures",
       "closureSchedule" : [
-        "Temple Closures:",
+        "Monday, 6 May 2019 - Monday, 20 May 2019",
         "Thursday, 4 July 2019",
-        "Monday, 23 September 2019 - Monday, 7 October 2019",
-        "Saturday, 9 November 2019 (Limited Hours)",
-        "Wednesday, 27 November 2019 (Limited Hours)",
+        "Saturday, 5 October 2019",
+        "Monday, 4 November 2019 - Monday, 18 November 2019",
         "Thursday, 28 November 2019",
-        "Tuesday, 24 December 2019 (Limited Hours)",
-        "Wednesday, 25 December 2019",
-        "Tuesday, 31 December 2019 (Limited Hours)",
-        "September 5 - 11: Founder Days",
-        "December 1 - 26: Christmas in the Heart"
+        "Friday, 29 November 2019 (Limited Hours)",
+        "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
       ]
     },
     {
-      "name": "Orlando Temple",
+      "name": "Orlando Florida Temple",
       "address": [
-          "6450 Barfield Rd NE",
-          "Sandy Springs GA 30328"
+          "9000 Windy Ridge Rd", 
+          "Windermere FL 34786"
       ],
-      "telephone": "(770) 393-3698",
+      "telephone": "(407) 876-0022",
+      "servicesTitle": "Services",
       "services": [
-          "Services:",
-          "No clothing rental available",
+          "Clothing rental available",
           "No cafeteria available",
           "No patron housing available",
           "Distribution center nearby"
       ],
+      "historyTitle": "History",
       "history": [
-          "History:",
-          "The Atlanta Georgia Temple was the first temple built in the Southeastern United States (and in Georgia).",
-          "The Atlanta Georgia Temple was the first temple dedicated by President Gordon B. Hinckley, who went on to dedicate or rededicate 89 other temples."
+        "The Orlando Florida Temple was the first temple built in Florida.",
+        "The Orlando Florida Temple is one of only two temples dedicated by President Howard W. Hunter during his brief time as president of the Church." 
       ],
+      "ordinanceScheduleTitle": "Ordinance Schedule",
       "ordinanceSchedule" : [
-        "Baptistry Schedule:",
-        "10:00 AM - 1:30 PM Tues - Fri",
-        "8:00 AM - 3:30 PM Saturday",
-        "Initiatory Schedule:",
-        "10:00 AM - 2:00 PM Tues - Fri",
-        "6:00 PM - 9:30 PM Tues - Fri",
-        "8:00 AM - 4:00 PM Saturday",
-        "Sealing Schedule:",
-        "10:00 AM - 2:00 PM Tues - Fri",
-        "6:00 PM - 10:00 PM Tues - Fri",
-        "8:00 AM - 5:00 PM Saturday"
+        "Baptistry:",
+        "8:30 AM - 4:30 PM, 6:30 PM - 8:30 PM Tues - Fri",
+        "7:00 AM - 3:00 PM Saturday",
+        "Initiatory:",
+        "8:00 AM - 9:00 PM Tues - Fri",
+        "7:30 AM - 4:00 PM Saturday",
+        "Sealing:",
+        "9:00 AM - 9:00 PM Tues - Fri",
+        "9:00 AM - 4:00 PM Saturday"
       ],
+      "sessionScheduleTitle": "Endowment Schedule",
       "sessionSchedule" : [
-        "Endowment Schedule:",
-        "Tues - Fri AM:",
-        "10:00 AM, 11:00 AM",
-        "Tues - Fri PM:",
-        "12:00 PM, 6:00 PM, 7:00 PM, 8:00 PM",
-        "Saturday AM:",
-        "8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM",
-        "Saturday PM:",
-        "12:00 PM, 1:00 PM, 2:00 PM, 3:00 PM"
+        "8:00 AM - 7:30 PM Tues - Fri",
+        "7:30 AM - 3:00 PM Saturday"
       ],
+      "closureScheduleTitle": "Temple Closures",
       "closureSchedule" : [
-        "Temple Closures:",
+        "Monday, 6 May 2019 - Monday, 20 May 2019",
         "Thursday, 4 July 2019",
-        "Monday, 23 September 2019 - Monday, 7 October 2019",
-        "Saturday, 9 November 2019 (Limited Hours)",
-        "Wednesday, 27 November 2019 (Limited Hours)",
+        "Saturday, 5 October 2019",
+        "Monday, 4 November 2019 - Monday, 18 November 2019",
         "Thursday, 28 November 2019",
-        "Tuesday, 24 December 2019 (Limited Hours)",
-        "Wednesday, 25 December 2019",
-        "Tuesday, 31 December 2019 (Limited Hours)",
-        "September 5 - 11: Founder Days",
-        "December 1 - 26: Christmas in the Heart"
+        "Friday, 29 November 2019 (Limited Hours)",
+        "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
       ]
     },
     {
-      "name": "Washington D.C. Temple",
+      "name": "San Diego California Temple",
       "address": [
-          "6450 Barfield Rd NE",
-          "Sandy Springs GA 30328"
+          "7474 Charmant Dr", 
+          "San Diego CA 92122"
       ],
-      "telephone": "(770) 393-3698",
+      "telephone": "(858) 622-0991",
+      "servicesTitle": "Services",
       "services": [
-          "Services:",
-          "No clothing rental available",
-          "No cafeteria available",
+          "Clothing rental available",
+          "Cafeteria available",
           "No patron housing available",
           "Distribution center nearby"
       ],
+      "historyTitle": "History",
       "history": [
-          "History:",
-          "The Atlanta Georgia Temple was the first temple built in the Southeastern United States (and in Georgia).",
-          "The Atlanta Georgia Temple was the first temple dedicated by President Gordon B. Hinckley, who went on to dedicate or rededicate 89 other temples."
+        "After suffering a mild heart attack four months earlier, President Ezra Taft Benson made his first trip outside the Salt Lake Valley to break ground for the San Diego California Temple—his first time presiding over a temple groundbreaking.",
+        "Over 720,000 visitors attended the widely publicized open house of the San Diego California Temple.",
+        "President Benson's ailing health did not allow him to preside at the dedication of the San Diego California Temple. President Gordon B. Hinckley was assigned to dedicate the temple in 23 sessions where 49,273 persons attended." 
       ],
+      "ordinanceScheduleTitle": "Ordinance Schedule",
       "ordinanceSchedule" : [
-        "Baptistry Schedule:",
-        "10:00 AM - 1:30 PM Tues - Fri",
-        "8:00 AM - 3:30 PM Saturday",
-        "Initiatory Schedule:",
-        "10:00 AM - 2:00 PM Tues - Fri",
-        "6:00 PM - 9:30 PM Tues - Fri",
-        "8:00 AM - 4:00 PM Saturday",
-        "Sealing Schedule:",
-        "10:00 AM - 2:00 PM Tues - Fri",
-        "6:00 PM - 10:00 PM Tues - Fri",
-        "8:00 AM - 5:00 PM Saturday"
+        "Baptistry:",
+        "8:00 AM - 9:00 PM Tues - Fri",
+        "7:00 AM - 7:30 PM Saturday",
+        "Initiatory:",
+        "8:00 AM - 8:30 PM Tues - Fri",
+        "8:00 AM - 8:00 PM Saturday",
+        "Sealing:",
+        "8:00 AM - 9:00 PM Tues - Fri",
+        "7:30 AM - 8:00 PM Saturday"
       ],
+      "sessionScheduleTitle": "Endowment Schedule",
       "sessionSchedule" : [
-        "Endowment Schedule:",
-        "Tues - Fri AM:",
-        "10:00 AM, 11:00 AM",
-        "Tues - Fri PM:",
-        "12:00 PM, 6:00 PM, 7:00 PM, 8:00 PM",
-        "Saturday AM:",
-        "8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM",
-        "Saturday PM:",
-        "12:00 PM, 1:00 PM, 2:00 PM, 3:00 PM"
+        "8:00 AM - 7:30 PM Tues - Fri",
+        "7:30 AM - 7:00 PM Saturday"
       ],
+      "closureScheduleTitle": "Temple Closures",
       "closureSchedule" : [
-        "Temple Closures:",
         "Thursday, 4 July 2019",
-        "Monday, 23 September 2019 - Monday, 7 October 2019",
-        "Saturday, 9 November 2019 (Limited Hours)",
-        "Wednesday, 27 November 2019 (Limited Hours)",
-        "Thursday, 28 November 2019",
-        "Tuesday, 24 December 2019 (Limited Hours)",
-        "Wednesday, 25 December 2019",
-        "Tuesday, 31 December 2019 (Limited Hours)",
-        "September 5 - 11: Founder Days",
-        "December 1 - 26: Christmas in the Heart"
+        "Monday, 30 September 2019 - Monday, 11 November 2019",
+        "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
+        "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
       ]
     }
    ]
