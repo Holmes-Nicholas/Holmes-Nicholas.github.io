@@ -69,4 +69,3 @@ switch (mm) {
 
 today = day + ", " + dd + ' ' + mm + ' ' + yyyy;
 document.write(today);
-
