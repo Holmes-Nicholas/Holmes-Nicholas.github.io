@@ -3,126 +3,89 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
-        <title>Soda Springs Weather | current conditions and five day forecast</title>
-        <meta name="description" content="Weather Site for Soda Springs Idaho.">
+        <title>Services Page of The Temple Inn and Suites</title>
+        <meta name="description" content="Available services provided by The Temple Inn and Suites..">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
         <link rel="stylesheet" media="(min-width:1024px)" href="css/large.css">
-        <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <header class="clearfix">
+        <header id="mainHeader" class= "templeMainHeader">
             <div id="flex-headings">
                 <div id="head-image">    
-                    <img src="images/weather-logo.png" alt="SEID weather site logo">
+                    <img src="images/temple-logo.png" alt="Temple Suites and Inn site logo">
                 </div>
                 <div id="head-title">
                     <div class="headings">
-                        <h1>SEID Weather Site</h1>
-                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                        <h1>The Temple Inn & Suites</h1>
+                        <div class="motto">&quot;Serving the Servants of the Lord.&quot;</div>
                     </div>
                 </div>
             </div>  
-            <nav>
+        
+            <nav class="clearfix">
                 <div class="nav-bar">
                     <ul class="navbar">
                         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="preston.html">Preston</a></li>
-                        <li><a class="active" href="#sodasprings">Soda Springs</a></li>
-                        <li><a href="fishhaven.html">Fish Haven</a></li>
-                        <li><a href="stormcenter.html">Storm Center</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a class="active" href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <main>
-                    <h2>Soda Springs</h2>
-                    <div class="wrapsummary">
-                        <figure class="sodaspringshero">
-                            <img src="images/sodasprings/sodaspringshero-px75-1080.jpg" alt="Geyser in Soda Springs Idaho" sizes="90vw"
-                            srcset="images/sodasprings/sodaspringshero-px75-720.jpg 720w,
-                                    images/sodasprings/sodaspringshero-px75-1080.jpg 1080w">
-                        </figure>
-                        <div class="summary">
-                            <h3>Weather Summary</h3>
-                            <hr>
-                            <p>Currently: <span id="currently"></span></p>
-                            <p>High: <span id="high"></span>&#8457;</p>
-                            <div id="windchill"></div>
-                            <p>Humidity: <span id="humidity"></span>&#37;</p>
-                            <p>Wind Speed: <span id="wind"></span> mph</p>                            
-                        </div>
-                    </div>
-                    <div class="fiveday">
-                        <h3>5 Day Forecast</h3>
-                        <div class="forecastcontainer">
-                            <div class="forecast">
-                                <p class="day">Day 1</p>
-                                <p id="day1"></p>
-                                <img id="cc-img1" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 2</p>
-                                <p id="day2"></p>
-                                <img id="cc-img2" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 3</p>
-                                <p id="day3"></p>
-                                <img id="cc-img3" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 4</p>
-                                <p id="day4"></p>
-                                <img id="cc-img4" src="." alt=".">
-                            </div>
-                            <div class="forecast">
-                                <p class="day">Day 5</p>
-                                <p id="day5"></p>
-                                <img id="cc-img5" src="." alt=".">
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="cityContainer">
-                        <div class="citydiv">
-                            <br>
-                            <section>
-                                <h3>City Events</h3>
-                            </section>
-                        <br>
-                        </div>
-                        <div class="citydiv">
-                            <img class="story-cover" src="images/sodasprings/sodaspringsfire-px75-640.jpg" alt="fire in hills near Soda Springs">
-                        </div>
-                    </div>
-\
-            <script src="scripts/weatherapiSodaSprings.js"></script>
-            <script src="scripts/forecastapiSodaSprings.js"></script>
-            <script src="scripts/windchillSodaSprings.js"></script>
-            <script src="scripts/towneventsSodaSprings.js"></script>
             <br>
-        </main>
-        <br>
-        <footer>
-            <div class="footerContainer">
-            <div class="footer-uppercity">
-                <h3>Contact Information</h3>
-                <p>Nicholas Holmes</p>
-                <p>holmes18@byui.edu</p>
-                <p>865-555-5555</p>
-            </div>
-            <div class="footer-uppercity">
-                <div class="h_iframe">
-                    <iframe height="400" width="2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23471.978813135982!2d-111.60628161903529!3d42.66141151672524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda+Springs%2C+ID+83276!5e0!3m2!1sen!2sus!4v1553110545708" style="border:0" allowfullscreen></iframe>
+                <a class="button" href="reservation.html">Make a Reservation</a> 
+                <br> 
+                <br>
+                <h3>Please let us know if you have any questions about the services we provide.</h3><br>
+                <div class="servicesContainerTitle">
+                    <h3>Specialzed Services</h3>
+                    <h3>Free Amenities</h3>
                 </div>
+                <div class="servicesContainer">
+                    <ul>
+                        <li>Free access to changing rooms and bathroom facilities for temple patrons.</li>
+                        <li>Low-cost/short-term babysitting service for children of temple patrons.</li>
+                        <li>Long-term stay accomidations for full-time temple missionaries.</li>
+                        <li>Temple history themed reception and sitting area.</li>
+                        <li>Wedding reception hall with simple catering menu. Kitchen access also avialable with rental.</li>
+                        <li>Family search center with modern computers. Can be used for family history work and ordiance work.</li>
+                    </ul>
+                    <ul>
+                        <li>Continental breakfast with allergy aware menu.</li>
+                        <li>Exercise/workout room.</li>
+                        <li>Indoor pool.</li>
+                        <li>High-speed WiFi and Smart TVs.</li>
+                        <li>Parking.</li>
+                        <li>Shuttle to temple and airport.</li>
+                        <li>Family history consultation including family ordinance card service.</li>
+                    </ul>
+                </div>
+                <br>
+                <br>  
             </div>
+        <br><br>
+        </main>
+        <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">
+            <div class="footer-upper">
+            <h3>Contact Information</h3><br>
+            <p>The Temple Inn & Suites</p>
+            <p>holmes18@byui.edu</p>
+            <p>865-555-5555</p>
             </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script> - <a href="https://openweathermap.org">Weather Data Sourced from OpenWeatherMap.org</a></p>
+            <br>
+           <div class="footer-lower">
+            <p><script src="scripts/currentdate.js"></script></p>
+            <p><a href="tos.html">Terms of Use</a></p>
+            <p>&copy;2019 - Nicholas Holmes</p>
             </div>
         </footer>
+    <script src="scripts/hamburger.js"></script>
     </body>
 </html>
