@@ -21,6 +21,7 @@
     width: 100%;
     align-content: center;
     display: flex;
+    text-align: center;
   }
 
 #head-image {

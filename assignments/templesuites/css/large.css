@@ -31,11 +31,19 @@
     
     #head-image {
         max-width: 10vw;
-        margin-left: 25vw;
+        margin-top: 2.5vw;
     }
 
     #head-title {
         width: 40vw;
+        margin-top: 2.5vw;
+        text-align: center;
+    }
+
+    .headings {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 2.5vw;
     }
 
     header h1 {
@@ -128,14 +136,7 @@
         height: auto; 
         margin: .5rem;
     }
-   /* .container > div {
-        width: 25vw;
-        justify-self: center;
-        padding: 1em;
-    }
-    
-    figcaption {font-size: smaller;}
-*/
+
     .templeGallery {
         transition: box-shadow .3s;
     }
