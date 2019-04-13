@@ -121,6 +121,38 @@
         text-align: left;
         grid-gap: 60px;
     }
+
+    .longtermContainer h3 {
+        text-align: center;
+    }
+
+    .longtermContainer a img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .longtermContainer ul{
+        margin-left: 0vw;
+    }
+
+    .longtermContainer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .longtermContainer {
+        /*margin: 1rem auto;*/ 
+        display:grid;
+        /*justify-self: center;*/
+        grid-template-columns: 1fr 1fr; 
+        max-width: 80vw;
+        /*text-align: left;*/
+        grid-gap: 60px;
+    }
    
     .container {
         margin: 1rem auto; 
@@ -189,6 +221,10 @@
   */   
     /*------------ FOOTER --------------*/
     
+    .templeMainFooter {
+        margin-top: 50px;
+    }
+
     footer {
         padding-bottom: 3.0rem;
     }

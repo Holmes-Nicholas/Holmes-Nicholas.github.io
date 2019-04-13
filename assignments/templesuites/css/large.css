@@ -114,6 +114,10 @@
         grid-gap: 100px;
     }
 
+    .servicesContainer a img {
+        width: 100%;
+    }
+
     .container {
         margin: 1rem auto; 
         display:grid;
@@ -133,7 +137,7 @@
         height: auto; 
         margin: .5rem;
     }
-
+/*
     img.gallery2 { 
         max-width: 20vw; 
         height: auto; 
@@ -146,8 +150,20 @@
         margin: .5rem;
     }
 
-    .templeGallery {
+    .gallery2 {
         transition: box-shadow .3s;
+        max-width: 100%; 
+        height: auto; 
+        margin: 2rem;
+        justify-self: center;    
+    }
+*/
+    .servicesGallery {
+        padding: 1rem;
+    }
+
+    .servicesGallery:hover {
+        box-shadow: 0 0 25px #58595B;
     }
     
     .gallery:hover {
