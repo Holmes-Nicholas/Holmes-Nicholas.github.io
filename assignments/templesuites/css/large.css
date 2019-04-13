@@ -150,27 +150,7 @@
         height: auto; 
         margin: .5rem;
     }
-/*
-    img.gallery2 { 
-        max-width: 20vw; 
-        height: auto; 
-        margin: .5rem;
-    }
 
-    img.gallery3 { 
-        max-width: 20vw; 
-        height: auto; 
-        margin: .5rem;
-    }
-
-    .gallery2 {
-        transition: box-shadow .3s;
-        max-width: 100%; 
-        height: auto; 
-        margin: 2rem;
-        justify-self: center;    
-    }
-*/
     .servicesGallery {
         padding: 1rem;
     }
@@ -224,7 +204,6 @@
     .footer-uppercity { 
         width:40vw;
         margin: 0 auto;
-        /*background-color: #d6d6d6; */
     }
 
     .footer-lower { 

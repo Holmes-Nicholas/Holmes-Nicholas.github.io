@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 640px) {
+@media only screen and (min-device-width: 720px) {
     
     /*---------------- HEADER --------------*/
     
@@ -166,29 +166,12 @@
     .longtermtextContainer ul{
         margin-left: 0vw;
     }
-/*
-    .longtermtextContainer img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-        .longtermtextContainer a img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-    }
-*/
     
     .longtermtextContainer {
         margin: 1rem auto; 
         display:grid;
-        /*justify-self: center;*/
         grid-template-columns: 1fr 1fr; 
         max-width: 80vw;
-        /*text-align: left;*/
         grid-gap: 60px;
     }
    
@@ -244,19 +227,7 @@
         width: 100%;
         max-height: 100%;
     }
-/*
-    .temples article {
-        text-align: center;
-        width: 90%;
-        margin: 0 auto;
-        box-shadow: 0 0 25px #58595B;
-    }*/
-/*
-    .temples img{
-        width: 100%;
-        max-height: 100%;
-    }
-  */   
+ 
     /*------------ FOOTER --------------*/
     
     .templeMainFooter {
