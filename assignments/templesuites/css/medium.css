@@ -90,6 +90,10 @@
         margin-top: 5vw;
     }
 
+    .missionaryformContainer {
+        width: 100%;
+        margin-top: 1vw;
+    }
     .servicesContainer h3 {
         text-align: center;
     }
@@ -112,13 +116,10 @@
         width: 100%;
     }
     
-    .servicesContainer {
-        margin: 1rem auto; 
+    .servicesContainer { 
         display:grid;
-        justify-self: center;
         grid-template-columns: 1fr 1fr; 
         max-width: 80vw;
-        text-align: left;
         grid-gap: 60px;
     }
 
@@ -145,7 +146,44 @@
     }
     
     .longtermContainer {
-        /*margin: 1rem auto;*/ 
+        display:grid;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 80vw;
+        grid-gap: 50px;
+    }
+
+    .contactContainer {
+        display:grid;
+        grid-template-columns: 1fr 1fr; 
+        max-width: 80vw;
+        grid-gap: 50px;
+    }
+
+    .longtermtextContainer h3 {
+        text-align: center;
+    }
+
+    .longtermtextContainer ul{
+        margin-left: 0vw;
+    }
+/*
+    .longtermtextContainer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+        .longtermtextContainer a img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+*/
+    
+    .longtermtextContainer {
+        margin: 1rem auto; 
         display:grid;
         /*justify-self: center;*/
         grid-template-columns: 1fr 1fr; 

@@ -38,6 +38,20 @@ body {
   .formcontainer * {
     box-sizing: border-box;
   }
+
+  .missionaryformContainer {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #B9E1E2;
+  }
+
+  .contactformContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #B9E1E2;
+  }
   
   .flex-outer,
   .flex-inner {

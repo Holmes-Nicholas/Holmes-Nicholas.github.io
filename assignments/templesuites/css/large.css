@@ -106,16 +106,29 @@
     }
 
     .servicesContainer {
-        display:grid;
-        justify-self: center;
-        grid-template-columns: 1fr 1fr; 
         max-width: 70vw;
-        text-align: left;
         grid-gap: 100px;
     }
 
     .servicesContainer a img {
         width: 100%;
+    }
+
+    .roomContainer {
+        width: 100%;
+    }
+
+    .longtermContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+
+    .longtermContainer a img {
+        width: 100%;
+    }
+
+    .longtermtextContainer {
+        max-width: 600px;
+        grid-gap: 25px;
     }
 
     .container {

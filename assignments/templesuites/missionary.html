@@ -7,6 +7,7 @@
         <meta name="description" content="Long-term accomidation details for full-time temple missionaries.">
         <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/form.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
         <link rel="stylesheet" media="(min-width:1024px)" href="css/large.css">
@@ -48,41 +49,89 @@
                 <div class="longtermContainer">
                     <div class="missionaryContainer">
                         <img src="images/services/extended/suite-small-80.jpg" alt="View of a long-term suite living room.">
-                            <br>
-                            <h3>Accomidation Information</h3><br>
-                            <ul>
-                                <h4>Amenities:</h4>
-                                <li>Free high-speed WiFi</li>
-                                <li>Free continental breakfast</li>
-                                <li>Weekly housekeeping</li>
-                                <li>On-site guest laundry facilities</li>
-                                <li>Living room with Smart TV</li>
-                                <li>Separate bedroom with Smart TV</li>
-                                <li>Kitchenette:</li>
-                                    <ul>
-                                        <li>Small Refridgerator</li>
-                                        <li>Oven</li>
-                                        <li>Microwave</li>
-                                        <li>Pots/Pans/Cookeware</li>
-                                        <li>Dishes</li>
-                                        <li>Utensils</li>
-                                        <li>Small Dishwasher</li>
-                                    </ul>
-                                <br><br>
-                            </ul>
-                    </div>
-                    <div class="receptionContainer">
-                        <img src="images/services/extended/suite-bedroom-small-80.jpg" alt="View of a long-term suite bedroom.">
-                            <br>
-                            <h3>Banquet Events</h3><br>
-                            <ul>
-                                <h4>Capacity:</h4>
-                                <li>75 guests for catered buffet</li>
 
-                            </ul>
+                    </div>
+                    <div class="missionaryContainer">
+                            <img src="images/services/extended/kitchenette-small-80.jpg" alt="View of a long-term suite kitchenette.">
+                                <br>
+                    </div>
+                    <div class="missionaryContainer">
+                            <img src="images/services/extended/suite-bedroom2-small-80.jpg" alt="View of a long-term suite bedroom from the living room.">
+                                <br>
+                    </div>
+                    <div class="missionaryContainer">
+                        <img src="images/services/extended/suite-bedroom-small-80.jpg" alt="View of a long-term suite bedroom.">
+                            
                     </div>
                 </div> 
-            </div>
+                <br>
+                <div class="longtermtextContainer">
+                <div class="roomContainer">
+                    <h3>Suite Features</h3><br>
+                    <ul>
+                        <li>Free high-speed WiFi</li>
+                        <li>Free continental breakfast</li>
+                        <li>Weekly housekeeping</li>
+                        <li>On-site guest laundry facilities</li>
+                        <li>Living room with Smart TV</li>
+                        <li>Separate bedroom with Smart TV</li>
+                    </ul>
+                </div>
+                <div class="roomContainer">
+                    <h3>Suite Kitchenette</h3><br>
+
+                    <ul>
+                        <li>Small Refridgerator</li>
+                        <li>Oven</li>
+                        <li>Microwave</li>
+                        <li>Pots/Pans/Cookeware</li>
+                        <li>Dishes</li>
+                        <li>Utensils</li>
+                        <li>Small Dishwasher</li>
+                    </ul>
+                </div>
+                </div>
+                <br>
+                <div class="missionaryformContainer">
+                <form id=contact>
+                        <fieldset>
+                        <legend>Contact Us</legend>
+                            <ol class="flex-outer">
+                                <li>
+                                    <label for=name>Name</label>
+                                    <input id=name name=name type=text placeholder="First and Last name" required autofocus
+                                    minlength="5" pattern="[A-Za-z ]+">
+                                </li>
+                                <li>
+                                    <label for=email>Email</label>
+                                    <input id=email name=email type=email placeholder="example@domain.com">
+                                </li>
+                                <li>
+                                    <label for=phone>Phone</label>
+                                    <input id=phone name=phone type=tel placeholder="Ex 8015555555" required>
+                                </li>
+                                <li>
+                                    <fieldset>
+                                    <label for=temple>Select a Location</label>
+                                    <select id=temple name=temple>
+                                        <option selected='true' disabled='disabled'>Select Temple</option>
+                                        <option value="nashville">Nashville</option>
+                                        <option value="atlanta">Atlanta</option>
+                                        <option value="orlando">Orlando</option>
+                                        <option value="sandiego">San Diego</option>
+                                    </select>
+                                    </fieldset>
+                                </li>
+                                <li>
+                                    <label for="requests">Special Requests and Comments: </label>
+                                    <textarea id="requests" name="msg" maxlength="140" rows="5"></textarea>
+                                </li>
+                            </ol>
+                            <br>
+                            <button type="submit" formaction="thanks.html">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
         <br><br>
         </main>
         <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">

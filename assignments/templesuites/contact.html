@@ -3,137 +3,116 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
-        <title>Preston, Soda Springs, and Fish Haven Weather</title>
-        <meta name="description" content="Weather Site for the Preston, Soda Springs, and Fish Haven areas of South East Idaho (SEID).">
+        <title>Contact Page for The Temple Inn and Suites</title>
+        <meta name="description" content="Contact Form the Temple Inn and Suites site.">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/form.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
         <link rel="stylesheet" media="(min-width:1024px)" href="css/large.css">
-        <script src="scripts/hamburger.js"></script>
     </head>
     <body>
-        <script>
-            function adjustRating(rating) {
-                document.getElementById("ratingvalue").innerHTML = rating;
-            }
-        </script>
-        <header class="clearfix">
+        <header id="mainHeader" class= "templeMainHeader">
             <div id="flex-headings">
                 <div id="head-image">    
-                    <img src="images/weather-logo.png" alt="SEID weather site logo">
+                    <img src="images/temple-logo.png" alt="Temple Suites and Inn site logo">
                 </div>
                 <div id="head-title">
                     <div class="headings">
-                        <h1>SEID Weather Site</h1>
-                        <div class="motto">&quot;Weather now or later we have you covered!&quot;</div>
+                        <h1>The Temple Inn & Suites</h1>
+                        <div class="motto">&quot;Serving the Servants of the Lord.&quot;</div>
                     </div>
                 </div>
             </div>  
-            <nav>
+        
+            <nav class="clearfix">
                 <div class="nav-bar">
                     <ul class="navbar">
                         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="preston.html">Preston</a></li>
-                        <li><a href="sodasprings.html">Soda Springs</a></li>
-                        <li><a href="fishhaven.html">Fish Haven</a></li>
-                        <li><a class="active" href="#storm-center">Storm Center</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <main>
-            <form id=contact>
-                <fieldset>
-                    <legend>Report a Storm</legend>
-                    <ol>
-                        <li>
-                            <label for=name>Name</label>
-                            <input id=name name=name type=text placeholder="First and Last name" required autofocus
-                            minlength="5" pattern="[A-Za-z ]+">
-                        </li>
-                        <li>
-                            <label for=email>Email</label>
-                            <input id=email name=email type=email placeholder="example@domain.com">
-                        </li>
-                        <li>
-                            <label for=phone>Phone</label>
-                            <input id=phone name=phone type=tel placeholder="Ex 8015555555" required>
-                        </li>
-                        <li>
-                            <label for=zip>Zip Code</label>
-                            <input id=zip name=zip type=number required>
-                        </li>
-                        <li>
-                            <label for=stormdate>Storm Date</label>
-                            <input id=stormdate name=stormdate type=date>
-                        </li>
-                        <li>
-                            <label for=stormtype>Storm Type</label>
-                            <input list=stormtype name=stormtype>
-                            <datalist id=stormtype>
-                                <option value="Flash Flood">
-                                <option value="Hail">
-                                <option value="Hurricane">
-                                <option value="Thunderstorm">
-                                <option value="Tornado">
-                            </datalist>
-                        </li>
-                        <li>
-                            <fieldset>
-                            <label for=rating>Storm Severity (1 to 10)</label>
-                            <input type="range" name=rating id=rating value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                            <span id="ratingvalue">5</span><br>
-                            </fieldset>
-                        </li>
-                        <li>
-                            <fieldset>
-                            <label for='region'>Storm Region</label>
-                            <select name='region'>
-                                <option selected='true' disabled='disabled'>Select Region</option>
-                                <option value="preston">Preston</option>
-                                <option value="sodasprings">Soda Springs</option>
-                                <option value="fishhaven">Fish Haven</option>
-                            </select>
-                            </fieldset>
-                        </li>
-                        <li>
-                            <fieldset>
-                            <label>User In-Danger Level </label><br>
-                            <div id=radio>
-                                <input id="yes" name=danger type=radio>
-                                <label for="yes">Yes</label><br>
-                                <input id="maybe" name=danger type=radio>
-                                <label for="maybe">Maybe</label><br>                         
-                                <input id="no" name=danger type=radio>
-                                <label for="no">No</label><br>
+            <br>
+                <h2>Contact us with any special requests or questions.</h2> 
+                <br>
+                <h3>Address</h3>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <br>
+                <div class="contactContainer">
+                        <div class="contactdiv">
+                            <div class="h_iframe">
+                                <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.9142846663644!2d-86.86310798444384!3d35.94906672284313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88647dfc4e203295%3A0xf653b5db34cbf694!2sThe+Church+of+Jesus+Christ+of+Latter-day+Saints!5e0!3m2!1sen!2sus!4v1555033718030!5m2!1sen!2sus" title="Google Map of the Nashville Tennessee Temple" width="680" height="500" frameborder="0" style="border:0" style="border:0" allowfullscreen></iframe>
                             </div>
-                            </fieldset>
-                        </li>
-                        <li>
-                                <label for="comments">Additional info/comments: </label>
-                                <textarea id="comments" name="msg" maxlength="140" rows="5"></textarea>
-                        </li>
-                       
-                            
-                        
-                    </ol>
-                    <button type="submit" formaction="thanks.html">Submit</button>
-                </fieldset>
-            </form>
+                        </div>
+                        <div class="contactdiv">
+                                <div class="contactformContainer">
+                                        <form id=contact>
+                                                <fieldset>
+                                                <legend>Contact Us</legend>
+                                                    <ol class="flex-outer">
+                                                        <li>
+                                                            <label for=name>Name</label>
+                                                            <input id=name name=name type=text placeholder="First and Last name" required autofocus
+                                                            minlength="5" pattern="[A-Za-z ]+">
+                                                        </li>
+                                                        <li>
+                                                            <label for=email>Email</label>
+                                                            <input id=email name=email type=email placeholder="example@domain.com">
+                                                        </li>
+                                                        <li>
+                                                            <label for=phone>Phone</label>
+                                                            <input id=phone name=phone type=tel placeholder="Ex 8015555555" required>
+                                                        </li>
+                                                        <li>
+                                                            <fieldset>
+                                                            <label for=temple>Select a Location</label>
+                                                            <select id=temple name=temple>
+                                                                <option selected='true' disabled='disabled'>Select Temple</option>
+                                                                <option value="nashville">Nashville</option>
+                                                                <option value="atlanta">Atlanta</option>
+                                                                <option value="orlando">Orlando</option>
+                                                                <option value="sandiego">San Diego</option>
+                                                            </select>
+                                                            </fieldset>
+                                                        </li>
+                                                        <li>
+                                                            <label for="requests">Special Requests and Comments: </label>
+                                                            <textarea id="requests" name="msg" maxlength="140" rows="5"></textarea>
+                                                        </li>
+                                                    </ol>
+                                                    <br>
+                                                    <button type="submit" formaction="thanks.html">Submit</button>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                        </div>
+                </div>
+                
+        <br><br>
         </main>
-        <br>
-        <footer>
+        <footer id="mainFooter" class="templeMainFooter" style="opacity: 1;">
             <div class="footer-upper">
-            <h3>Contact Information</h3>
-            <p>Nicholas Holmes</p>
+            <h3>Contact Information</h3><br>
+            <p>The Temple Inn & Suites</p>
             <p>holmes18@byui.edu</p>
             <p>865-555-5555</p>
             </div>
-            <div class="footer-lower"><p>&copy;2019 - Nicholas Holmes - <a href="tos.html">Terms of Use</a> - <script src="scripts/currentdate.js"></script></p>
+            <br>
+           <div class="footer-lower">
+            <p><script src="scripts/currentdate.js"></script></p>
+            <p><a href="tos.html">Terms of Use</a></p>
+            <p>&copy;2019 - Nicholas Holmes</p>
             </div>
         </footer>
+    <script src="scripts/hamburger.js"></script>
     </body>
 </html>
