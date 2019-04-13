@@ -197,6 +197,12 @@
         font-size: 1.5rem;
     }
 
+    .contact_iframe iframe {
+        grid-area: iframe;
+        width: 100%;
+        height: 100%;
+    }
+
     .h_iframe {
         position: relative;
         padding-top:50%;
