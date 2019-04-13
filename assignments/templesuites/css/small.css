@@ -209,7 +209,7 @@ h2 {
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-display: auto;
+    /*font-display: auto;*/
     color: #58595B;
     background: #fff;
 }
