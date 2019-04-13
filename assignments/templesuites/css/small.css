@@ -69,7 +69,7 @@ h1 {
     font-size: 1.2rem;
     /*font-family: Helvetica, sans-serif;*/
     font-family: 'Lato', sans-serif;
-    color: #2197a9;
+    color: #006C93;
 }
 
 nav { 
@@ -129,7 +129,7 @@ nav li a:hover:not(.active) {
 
 a:link {
     /*color: #517C96;*/
-    color: #FF8200;
+    color: #006C93;
 }
 
 
