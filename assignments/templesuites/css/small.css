@@ -330,7 +330,7 @@ section {
     margin: 0 auto;
 }
 
-section h2 h3 {
+.cell section h2{
     display: none;
 }
 
